@@ -1,0 +1,776 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-05-27 14:07+0300\n"
+"PO-Revision-Date: 2018-04-11 17:14+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: build\n"
+"X-Poedit-SearchPathExcluded-1: freemius\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+
+#: src/Admin/Admin.php:107
+msgid "Please enable permalinks to use SEO rules"
+msgstr ""
+
+#: src/Admin/Admin.php:139 src/Admin/Admin.php:140
+msgid "Product filter"
+msgstr ""
+
+#: src/Admin/Admin.php:150
+msgid "Number of filters per page"
+msgstr ""
+
+#: src/Admin/Admin.php:180
+#, php-format
+msgid "Please rate our Premmerce Product Filter for WooCommerce on <a href=\"%1$s\" %2$s>WordPress.org</a><br/>Thank you from the Premmerce team!"
+msgstr ""
+
+#: src/Admin/Admin.php:264
+msgid "Account"
+msgstr ""
+
+#: src/Admin/Admin.php:279
+msgid "Contact Us"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:91 views/admin/macros.php:13
+#: views/admin/tabs/attributes.php:21
+msgid "Attributes"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:236 src/Admin/Tabs/Taxonomy.php:70
+#: views/admin/tabs/attributes.php:135 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:52
+msgid "Display"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:240 src/Admin/Tabs/Taxonomy.php:71
+#: views/admin/tabs/attributes.php:134 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:52
+msgid "Hide"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:247
+msgid "Checkbox"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:251
+msgid "Radio"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:255
+msgid "Select"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:265 src/Admin/Tabs/SeoSettings.php:46
+#: src/Widget/FilterWidget.php:153
+msgid "Default"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:269
+msgid "Dropdown"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:273
+msgid "Scroll"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:277
+msgid "Scroll + Dropdown"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:281
+msgid "Hoverable Dropdown"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:288 src/Admin/Tabs/Taxonomy.php:69
+msgid "Bulk Actions"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:289 views/admin/tabs/attributes.php:46
+#: views/admin/tabs/brands.php:26 views/admin/tabs/taxonomy.php:33
+msgid "Visibility"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:290 views/admin/tabs/attributes.php:42
+msgid "Field type"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:291 views/admin/tabs/attributes.php:43
+msgid "Display as"
+msgstr ""
+
+#: src/Admin/Tabs/Attributes.php:424 src/Admin/Tabs/Attributes.php:448
+#: src/Admin/Tabs/Base/BaseSettings.php:85 views/admin/tabs/attributes.php:67
+msgid "Premium"
+msgstr ""
+
+#: src/Admin/Tabs/Base/BaseSettings.php:98 src/Widget/FilterWidget.php:150
+msgid " (Premium)"
+msgstr ""
+
+#: src/Admin/Tabs/Base/BaseSettings.php:209
+msgid "premium"
+msgstr ""
+
+#: src/Admin/Tabs/Cache.php:68 views/admin/tabs/cache.php:9
+msgid "Cache"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:54
+#: src/Admin/Tabs/PermalinkSettings.php:145
+msgid "Permalinks"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:59
+msgid "Use permalinks"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:64
+msgid "Discourage search engines from indexing pages created by the filter, except for pages with SEO rules."
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:65
+msgid "Enable this rule, if you want to hide this page from Google Search Index."
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:71
+msgid "Attribute prefix"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:77
+msgid "Value separator"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:92
+#, php-format
+msgid "%s prefix"
+msgstr ""
+
+#: src/Admin/Tabs/PermalinkSettings.php:130
+msgid "Prefixes should be unique"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:80 src/Admin/Tabs/SeoRules.php:101
+msgid "Rule does not contains products"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:84
+msgid "Rule created"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:105
+msgid "Rule updated"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:176
+msgid "Generation completed"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:209
+msgid "Rules are updated"
+msgstr ""
+
+#: src/Admin/Tabs/SeoRules.php:363
+msgid "SEO Rules"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:50
+msgid "Use default seo settings"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:55
+msgid "Default Metadata"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:58
+msgid "This settings are used to setup default meta data for filter pages that are not defined in rules"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:66 views/admin/macros.php:97
+msgid "H1"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:71
+msgid "Document title"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:76 views/admin/macros.php:111
+msgid "Meta description"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:81 views/admin/macros.php:12
+msgid "Category description"
+msgstr ""
+
+#: src/Admin/Tabs/SeoSettings.php:109
+msgid "SEO Settings"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:38
+msgid "Behavior"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:43
+msgid "Hide empty terms"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:48
+msgid "Show price filter"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:53
+#, php-format
+msgid "Show \"%s\" button"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:53 views/frontend/active_filters.php:55
+msgid "Reset filter"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:58
+msgid "Enable category hierarchy"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:63
+msgid "Expand hierarchy by default"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:68
+msgid "Show filter button"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:73
+msgid "Show \"On sale\""
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:78
+msgid "Show \"In stock\""
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:83
+msgid "Show rating filter"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:88
+msgid "Show filter on pages"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:92
+msgid "Product category"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:96
+msgid "Tag"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:100 views/admin/tabs/brands.php:25
+msgid "Brand"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:104 views/admin/tabs/seo.php:41
+msgid "Search"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:108
+msgid "Store"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:112 views/admin/tabs/attributes.php:44
+msgid "Attribute"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:118
+msgid "AJAX"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:122
+msgid "Load deferred"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:127
+msgid "Styles"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:130
+msgid "Custom css"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:141
+msgid "Use ajax"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:149
+msgid "Shortcodes instruction"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:155
+msgid "Shortcodes"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:158
+msgid "Active Shortcodes"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:160
+msgid "<b>[premmerce_filter]</b> - for showing main <b>Premmerce Filter</b> (Product attributes filter)"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:161
+msgid "<b>[premmerce_active_filters]</b> - for showing main <b>Premmerce active filters</b> (Product attributes active filters)"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:162
+msgid "<small>Shortcodes are working only on WooCommerce pages (shop, tags etc)</small>"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:197 views/admin/seo/generate-rules.php:44
+#: views/admin/seo/generate-rules.php:97
+msgid "Taxonomies"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:200
+msgid "Use taxonomies"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:204
+msgid "Choose taxonomies used by filter."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:205
+msgid "The use of custom taxonomies is only available in the premium version."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:213
+msgid "Woocommerce content"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:214
+msgid "Product archive"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:224
+msgid "Ajax Strategy"
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:227
+msgid "Choose the strategy for replacing content during ajax product filtering."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:231
+msgid "<b>Woocommerce content</b> strategy - has better performance and supported most of woocommerce themes, where archive page has default woocommerce layout."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:235
+msgid "<b>Product archive</b> strategy - replaces all content placed in product archive template except footer and header."
+msgstr ""
+
+#: src/Admin/Tabs/Settings.php:250
+msgid "Settings"
+msgstr ""
+
+#: src/Filter/Items/Types/InStockFilter.php:145
+msgid "In stock"
+msgstr ""
+
+#: src/Filter/Items/Types/InStockFilter.php:147
+msgid "Out of stock"
+msgstr ""
+
+#: src/Filter/Items/Types/InStockFilter.php:149
+msgid "On Back Order"
+msgstr ""
+
+#: src/Filter/Items/Types/OnSaleFilter.php:243
+msgid "On sale"
+msgstr ""
+
+#: src/Filter/Items/Types/PriceFilter.php:49
+msgid "Filter by price"
+msgstr ""
+
+#: src/Filter/Items/Types/PriceFilter.php:82
+#, php-format
+msgid "Min %s"
+msgstr ""
+
+#: src/Filter/Items/Types/PriceFilter.php:88
+#, php-format
+msgid "Max %s"
+msgstr ""
+
+#: src/Filter/Items/Types/SliderFilter.php:69
+#, php-format
+msgid "%s from %s"
+msgstr ""
+
+#: src/Filter/Items/Types/SliderFilter.php:76
+#, php-format
+msgid "%s to %s"
+msgstr ""
+
+#: src/FilterPlugin.php:168
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr ""
+
+#: src/Seo/RulesTable.php:136 views/admin/seo/form.php:42
+msgid "Category"
+msgstr ""
+
+#: src/Seo/RulesTable.php:137
+msgid "Label"
+msgstr ""
+
+#: src/Seo/RulesTable.php:138
+msgid "Discourage search engines"
+msgstr ""
+
+#: src/Seo/RulesTable.php:139
+msgid "Enabled"
+msgstr ""
+
+#: src/Seo/RulesTable.php:152 views/admin/seo/table/column-h1.php:30
+msgid "Delete"
+msgstr ""
+
+#: src/Seo/RulesTable.php:153 views/admin/macros.php:150
+msgid "Enable"
+msgstr ""
+
+#: src/Seo/RulesTable.php:154
+msgid "Disable"
+msgstr ""
+
+#: src/Seo/RulesTable.php:222
+msgid "No rules found."
+msgstr ""
+
+#: src/Seo/RulesTable.php:283 views/frontend/filter.php:93
+msgid "Filter"
+msgstr ""
+
+#: src/Seo/RulesTable.php:305
+msgid "Filter by category"
+msgstr ""
+
+#: src/Seo/SeoModel.php:209
+msgid "The same rule already exists"
+msgstr ""
+
+#: src/Seo/SeoModel.php:213
+msgid "Terms are required"
+msgstr ""
+
+#: src/Seo/SeoModel.php:216
+msgid "Category is required"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:84
+msgid "Filter style. Can be <code>default</code>, <code>premmerce</code>, <code>custom</code>. "
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:85
+msgid "All other attributes you can use after adding <code>style=\"custom\"</code> attribute."
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:89
+msgid "Filter Background color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:93
+msgid "Filter Border"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:97
+msgid "Filter Border Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:101
+msgid "Make filter title bold"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:105
+msgid "Make title text <code>uppercase</code> or <code>default</code>"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:109
+msgid "Filter Price Input Background"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:113
+msgid "Filter Price Input Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:117
+msgid "Filter Price Slider Range Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:121
+msgid "Filter Price Slider Handle Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:125
+msgid "Choose Checkbox Appearance: "
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:132
+msgid "Titles Font Size"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:136
+msgid "Titles Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:140
+msgid "Terms Titles Font Size"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:144
+msgid "Terms Titles Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:148
+msgid "Checkbox/Radio Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:152
+msgid "Checkbox/Radio Border Color"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:157
+msgid "Filter Shortcode"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:171
+msgid "Filter Shortcode with all attributes"
+msgstr ""
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:179
+msgid "Filter Shortcode Attributes:"
+msgstr ""
+
+#: src/Widget/ActiveFilterWidget.php:18
+msgid "Premmerce active filters"
+msgstr ""
+
+#: src/Widget/ActiveFilterWidget.php:20
+msgid "Product attributes active filters"
+msgstr ""
+
+#: src/Widget/ActiveFilterWidget.php:54
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: src/Widget/FilterWidget.php:21
+msgid "Premmerce filter"
+msgstr ""
+
+#: src/Widget/FilterWidget.php:23
+msgid "Product attributes filter"
+msgstr ""
+
+#: views/admin/filter-widget.php:32
+msgid "Main styles"
+msgstr ""
+
+#: views/admin/filter-widget.php:63
+msgid "Price filter styles"
+msgstr ""
+
+#: views/admin/filter-widget.php:89
+msgid "Filter titles and checkboxes styles"
+msgstr ""
+
+#: views/admin/macros.php:11
+msgid "Category name"
+msgstr ""
+
+#: views/admin/macros.php:14 views/admin/tabs/brands.php:11
+msgid "Brands"
+msgstr ""
+
+#: views/admin/macros.php:15
+msgid "Min price"
+msgstr ""
+
+#: views/admin/macros.php:16
+msgid "Max price"
+msgstr ""
+
+#: views/admin/macros.php:17
+msgid "Number of products"
+msgstr ""
+
+#: views/admin/macros.php:29
+msgid "Add attribute name"
+msgstr ""
+
+#: views/admin/macros.php:37
+msgid "Select «{{attribute}}» value"
+msgstr ""
+
+#: views/admin/macros.php:53 views/admin/seo/generate-rules.php:50
+#: views/admin/seo/generate-rules.php:101
+msgid "Select taxonomy"
+msgstr ""
+
+#: views/admin/macros.php:62 views/admin/macros.php:68
+#: views/admin/seo/generate-rules.php:68 views/admin/seo/generate-rules.php:75
+#: views/admin/seo/generate-rules.php:122
+msgid "Select term"
+msgstr ""
+
+#: views/admin/macros.php:104
+msgid "Title"
+msgstr ""
+
+#: views/admin/macros.php:120
+msgid "Description"
+msgstr ""
+
+#: views/admin/macros.php:141
+#, php-format
+msgid "Discourage search engines from indexing this page%s"
+msgstr ""
+
+#: views/admin/macros.php:144
+msgid "Enable this rule, if you want to hide this page from Google Search Index and from XML sitemap."
+msgstr ""
+
+#: views/admin/macros.php:153
+msgid "Enable this rule."
+msgstr ""
+
+#: views/admin/options.php:12
+msgid "Premmerce Product Filter for WooCommerce"
+msgstr ""
+
+#: views/admin/options.php:26
+msgid "Upgrate to Premium"
+msgstr ""
+
+#: views/admin/seo/form.php:25 views/admin/seo/form.php:78
+msgid "Add new rule"
+msgstr ""
+
+#: views/admin/seo/form.php:29 views/admin/seo/generate-rules.php:15
+msgid "Back"
+msgstr ""
+
+#: views/admin/seo/form.php:33
+msgid "Visit page"
+msgstr ""
+
+#: views/admin/seo/form.php:38 views/admin/seo/form.php:80
+msgid "Update rule"
+msgstr ""
+
+#: views/admin/seo/form.php:49
+msgid "Taxonomy"
+msgstr ""
+
+#: views/admin/seo/form.php:50
+msgid "Term"
+msgstr ""
+
+#: views/admin/seo/form.php:69
+msgid "Add"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:27
+msgid "Generate rules"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:29
+msgid "Categories"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:32
+msgid "Select category"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:61 views/admin/seo/generate-rules.php:114
+#: views/admin/tabs/taxonomy.php:32
+msgid "Terms"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:82
+msgid "Add taxonomy"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:87
+msgid "Generate"
+msgstr ""
+
+#: views/admin/seo/generate-rules.php:119
+msgid "Select terms"
+msgstr ""
+
+#: views/admin/seo/table/column-h1.php:24
+msgid "Edit"
+msgstr ""
+
+#: views/admin/seo/table/column-h1.php:35
+msgid "View"
+msgstr ""
+
+#: views/admin/tabs/actions.php:12
+msgid "Select bulk action"
+msgstr ""
+
+#: views/admin/tabs/actions.php:31
+msgid "Apply"
+msgstr ""
+
+#: views/admin/tabs/attributes.php:31 views/admin/tabs/taxonomy.php:20
+msgid "Move to previous page"
+msgstr ""
+
+#: views/admin/tabs/attributes.php:107
+#, php-format
+msgid "Setup %ss"
+msgstr ""
+
+#: views/admin/tabs/attributes.php:161 views/admin/tabs/brands.php:56
+#: views/admin/tabs/taxonomy.php:63
+msgid "No items found"
+msgstr ""
+
+#: views/admin/tabs/attributes.php:170 views/admin/tabs/taxonomy.php:72
+msgid "Move to next page"
+msgstr ""
+
+#: views/admin/tabs/attributes.php:187
+msgid "Save"
+msgstr ""
+
+#: views/admin/tabs/cache.php:15
+msgid "Clear cache"
+msgstr ""
+
+#: views/admin/tabs/seo.php:27
+msgid "Generate Rules"
+msgstr ""
+
+#: views/admin/tabs/seo.php:30
+msgid "Update paths"
+msgstr ""
+
+#: views/frontend/types/select.php:6
+#, php-format
+msgid "Any %s"
+msgstr ""

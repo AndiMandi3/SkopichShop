@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<title>Корзина</title>
+</head>
+<body>
+	<!-- Десктопная шапка -->
+	<div class="d-none d-lg-block d-xl-block verh" height="250px"> 
+		<nav class="navbar navbar-expand-lg navbar-light bg-light skicky-top nav-fill justify-content-center" height='250px'>
+			<div class="my-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto nav-fill justify-content-center">
+					<li class="nav-item col">
+						<a class="nav-link" href="catalog.html">Каталог <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Новинки</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Скидки</a>
+					</li>
+					<li class="nav-item navbar-right col">
+						<a class="nav-link" href="collections.html" tabindex="-1" aria-disabled="true">Коллекции</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="navbar-brand">
+						<a class="navbar-brand-cont" href="welcome.html">
+							<img srcset="img/icons/logo.svg">
+						</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="nav-item navbar-left col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Аксессуары</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="delivery.html" tabindex="-1" aria-disabled="true">Доставка</a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Search.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Profile.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="card.html" tabindex="-1" aria-disabled="true"><img src="img/icons/Basket.svg"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Маленькая шапка -->
+	<div class="d-none d-lg-block d-xl-block small_shapka" height="150px">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav-fill justify-content-center small_shapka" height='250px'">
+			<div id="my-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto ml-auto nav-fill justify-content-center">
+					<li class="nav-item col">
+						<a class="nav-link" href="catalog.html">Каталог <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Новинки</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Скидки</a>
+					</li>
+					<li class="nav-item navbar-right col">
+						<a class="nav-link" href="collections.html" tabindex="-1" aria-disabled="true">Коллекции</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="navbar-brand">
+						<a class="navbar-brand-cont" href="welcome.html">
+							<img srcset="img/icons/small_shapka.svg">
+						</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="nav-item navbar-left col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Аксессуары</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="delivery.html" tabindex="-1" aria-disabled="true">Доставка</a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Search.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Profile.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="card.html" tabindex="-1" aria-disabled="true"><img src="img/icons/Basket.svg"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+    </div>
+    <div class="container item">
+		<div class="itog col-3">
+			<h1 class="h1itog">Итого:</h1>
+			<h1 class="h1itog price_itog">2880 руб.</h1>
+			<p class="pitog">Стоимость товара (Lorem Ipsum (x2))</p>
+			<p class="pitog_left">1440 руб.</p>
+			<p class="pitog">Скидка</p>
+			<p class="pitog_left">0 руб.</p>
+			<input class="skidka" type="checkbox" id="option1" name="option1" value="a1">
+			<label class="pitog" for="option1">У меня есть промокод</label>
+			<input type="text" class="kupon" placeholder="Напишите его здесь:">
+			<a class="oform" type="button" href="ordering.html">Оформить заказ</a>
+		</div>
+		<div class="row col-9">
+			<div class="info">
+				<p class="n">2 товара</p>
+			</div>
+            <img src="img/Card/img.svg">
+            <div class="chars">
+				<h1 class="name_shoes">Платье Lorem Ipsum</h1>
+                <h1 class="price1">1440 руб.</h1>
+                <p class="char">Артикул: ########</p>
+                <p class="char">Размер: XX</p>
+                <p class="char">Цвет: Черный</p>
+                <a class="plsmns" href="#"><img src="img/Card/Plus.svg"></a>
+                <p class="number">1</p>
+                <a href="#"><img class="plsmns minus" src="img/Card/minus.svg"></a>
+                <a href="#"><img class="del" src="img/Card/trash.svg"></a>
+			</div>
+	</div>
+        <div class="row line">
+            <img src="img/Card/line.svg">
+		</div>
+	</div>
+	<div class="container item">
+		<div class="row col-9">
+            <img src="img/Card/img.svg">
+            <div class="chars">
+				<h1 class="name_shoes">Платье Lorem Ipsum</h1>
+                <h1 class="price1">1440 руб.</h1>
+                <p class="char">Артикул: ########</p>
+                <p class="char">Размер: XX</p>
+                <p class="char">Цвет: Черный</p>
+                <a class="plsmns" href="#"><img src="img/Card/Plus.svg"></a>
+                <p class="number">1</p>
+                <a href="#"><img class="plsmns minus" src="img/Card/minus.svg"></a>
+                <a href="#"><img class="del" src="img/Card/trash.svg"></a>
+			</div>
+		</div>
+        <div class="row line">
+            <img src="img/Card/line.svg">
+		</div>
+	</div>
+<!-- Подвал -->
+<div class="d-none d-lg-block d-xl-block">
+	<div class="container-fluid sticky-bottom footer">
+		<div class="container">
+			<div class="row row-1">
+				<div class="col-3">
+					<a class="footl" href="#">Условия использования</a>
+				</div>
+				<div class="col-3 foot cont">
+					<a class="foot" href="contacts.html">Контакты</a>
+				</div>
+				<div class="col-3 foot">
+					<a class="foot" href="#">Прайс-лист</a>
+				</div>
+				<div class="col-3 footr">
+					<a class="footr" href="#">Поддержка</a>
+				</div>
+				<div class="row w-100">
+					<div class="col-6 con">
+						<p>Контактный телефон: 7-XXX-XXX-XX-XX</p>
+						<p class="num">Aдрес: г.Новосибрск, ул. Lorem Ipsum, д. Lor, 000000</p>
+					</div>
+					<div class="col-6 imges">
+						<a href="flump.ru" target="_blank" >
+							<img class="images" src="img/icons/logo-flamp-512x400 1.svg">
+						</a>
+						<a href="vk.com" target="_blank">
+							<img class="images" src="img/icons/VK.svg">
+						</a>
+						<a href="instagram.com" target="_blank" class="last">
+							<img class="images" src="img/icons/inst.svg">
+						</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

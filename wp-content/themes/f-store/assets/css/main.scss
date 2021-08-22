@@ -1,0 +1,2056 @@
+$primary-color: #2AAA8B;
+$primary-color-text: #000000;
+$secondary-text-color: #263238;
+$accent-color: #F89DBA;
+$neutral-color: #F6F6F6;
+$header-footer-color: #B3DFD4;
+$sort: #0047B0;
+$header-footer-color2: #76DEC4;
+$border-color: #00a550;
+@media (min-width: 1400px) {
+    .div-multi {    
+        min-height: 804px;
+    }
+}
+@media (max-width: 1400px) {
+    body .frame2 {   
+        margin-top: 100px;
+    }
+}
+html {
+    font-size: 10px;
+}
+p {
+    font-family: Century;
+    color: $secondary-text-color;
+}
+.active {
+    color: $primary-color-text;
+}
+body {
+    font-size: 16px;
+    color: $secondary-text-color!important;
+    // Меню
+    .navbar{
+        height: 250px!important;
+        background-color: $header-footer-color!important;
+    }
+    .navbar-right {
+        padding-right: 48px; 
+    }
+    .navbar-rightt {
+        border-top: 1px solid black;
+        margin-top: 95px;
+        padding-top: 12px;
+    }
+    .navbar-brand {
+        margin-top: 6px;
+        margin-right: 0;
+    }
+    .nav-link {
+        font-family: Century;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        .nav-link:first-child {
+            padding-left: 0;
+        }
+
+    }
+    .nav-item-icon {
+        margin-top: 95px;
+        padding-top: 12px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 58px;
+    }
+    .nav-item {
+        margin-top: 95px;
+        padding: 12px 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 58px;
+        .nav-item:first-child {
+            padding-left: 0;
+        }
+    }
+    .nav-item-mobile {
+        margin-top: 0px!important
+    }
+    .navbar-mobile {
+        height: 190px!important;
+    }
+    .navbar-brand-mobile {
+        margin-left: calc(50% - 105px);
+    }
+    // Маленькое меню
+    .small_shapka {
+        .navbar {
+            height: 150px!important;
+        }
+        .nav-item {
+            margin-top: 59px;
+        }
+        .navbar-rightt {
+            margin-top: 59px;
+        }
+        .nav-item-icon {
+            margin-top: 59px;
+        }
+        display: none;
+    }
+        // элементы нав-бара
+    // Поиск
+    .search{
+        background-image: url(../img/icons/search_form.svg);
+        position: relative;
+        left: 1188px;
+        display: none;
+        form {
+            position: relative;
+            border-style: none;
+            top: 10px;
+            left: 45px;
+            width: 202px;
+        }
+    }
+    .search_form {
+        position: relative;
+        left: 15px;
+        top: 37px;
+        color: #2AAA8B;
+    }
+    .search {
+        position: relative;
+        width: 340px;
+        height: 72px;
+        bottom: 100px;
+    }
+    .search input {
+        border-style: none;
+        outline: none;
+        font-family: century;
+        border-bottom: 1px solid #2AAA8B;
+
+    }
+    // вход
+    .login {
+        width: 358px;
+        position: fixed;
+        background-color: white;
+        left: 50%;
+        border-radius: 5px 5px 0 0;
+        z-index: 999;
+        top: 70px;
+        display: none;
+        input:focus {
+            border-color: $primary-color;
+        }
+
+    }
+    .login_green {
+        width: 358px;
+        height: 160px;
+        background-color: #2aaa8b;
+        border-radius: 5px 5px 0 0;
+        justify-content: center;
+    }
+    .logo {
+        margin-left: 100px;
+        width: 161px;
+        height: 136px;
+        justify-content: center;
+
+    }
+    .close {
+        background-image: url(../img/icons/X.png);
+        margin-right: 10px;
+        margin-top: 13px;
+        width: 21px;
+        height: 21px;
+    }
+    .login_form {
+        margin-left: 4px;
+        margin-top: 19px;
+        height: 58px;
+    }
+    .login_form input {
+        border-style: none;
+        outline: none;
+        font-family: century;
+        position: relative;
+        background-color: white;
+        width: 200px;
+        bottom: 68px;
+        margin-left: 12px;
+    }
+    .login_form p {
+        position: relative;
+        font-size: 12px;
+        font-family: FuturaBookC;
+        bottom: 66px;
+        padding: 0 14px;
+    }
+    .psw_form {
+        margin-left: 4px;
+        margin-top: 19px;
+        height: 58px;
+    }
+    .password-control {
+        position: relative;
+        bottom: 71px;
+        left: 100px;
+        display: inline-block;
+        background: url(/img/icons/eye.svg);
+        width: 12.73px;
+        height: 10px;
+    }
+    .forget {
+        font-family: century;
+        font-size: 12px;
+        position: relative;
+        text-decoration: none;
+        color: $primary-color-text;
+        margin-left: 23px;
+    }
+    .voyti {
+        font-family: FuturaBookC;
+        font-size: 12px;
+        font-style: normal;
+        background: $neutral-color;
+        color: $primary-color;
+        text-align: center;
+        transition: 0.15s;
+        box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+        border-radius: 2px;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        width: 146px;
+        height: 40px;
+        padding: 12px 0; 
+        margin-left: 450px;
+        margin-top: 23px;
+        position: relative;
+        right: 350px;
+    }
+    .voyti:hover {
+        background: $primary-color;
+        color: $neutral-color;
+        font-family: FuturaBookC;
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        padding: 12px 0;
+    }
+    .voyti:active {
+        background: #1A7861;
+        color: $neutral-color;
+        font-family: FuturaBookC;
+        padding: 12px 0;
+        font-size: 12px;
+        font-style: normal;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    .lines {
+        width: 100%;
+        text-align: center;
+        margin-top: 32px;
+        .line_left {
+            display: inline-block;
+        }
+        .line_right {
+            display: inline-block;
+        }
+    }
+    .fast_auto {
+        margin: 0 15px;
+        font-family: Century;
+        font-size: 12px;
+        display: inline-block;
+    }
+    .sources {
+        margin-top: 17px;
+        text-align: center;
+    }
+    .vk {
+        margin: 0 32px;
+        text-decoration: none;
+    }
+    .inst {
+        margin: 0 25px;
+    }
+    .but_reg {
+        text-decoration: none;
+    }
+    .reg {
+        font-family: FuturaBookC;
+        font-size: 18px;
+        width: 358px;
+        height: 52px;
+        background-color: #2AAA8B;
+        margin-top: 5px;
+    }
+    .reg p {
+        text-decoration: none;
+        color: white;
+        font-family: 'FuturaBookC';
+        margin: 0 134.5px;
+        position: relative;
+        top: 13px;
+    }
+    // Регистриация
+    .register {
+        display: none;
+        position: fixed;
+        top: 100px;
+        width: 358px;
+        height: 621px;
+        background-color: white;
+        left: 20%;
+        border-radius: 5px 5px 0 0;
+        z-index: 999;
+        .password-control {
+            bottom: 85px;
+            left: 30px;
+        }
+        .voyti {
+            top: 10px;
+        }
+        .line_right {
+            top: 37px
+        }
+        .line_left {
+            top: 61px;
+        }
+        .fast_auto {
+            top: 18px;
+        }
+        .soc {
+            top: 30px;
+        }
+        .reg {
+            background-color: #2AAA8B;
+        }
+        input:focus {
+            border-color: $primary-color;
+        }
+    }
+    .register_f {
+        height: 60px;
+    }
+    .register_form {
+        margin-left: 9px;
+        margin-right: 9px;
+        p:focus {
+            border-color: $primary-color;
+        }
+    }
+    .name_block {
+        float: left;
+    }
+    .female_block {
+        float: left;
+        margin-left: 25px;
+    }
+    .female {
+        margin-left: 27px;
+        position: relative;
+        bottom: 94px;
+    }
+    .fema {
+        width: 60px!important;
+    }
+    .register_form input {
+        border-style: none;
+        outline: none;
+        font-size: 16px;
+        font-family: century;
+        background-color: white;
+        width: 136px;
+        margin-left: 12px;
+        border: 2px solid lightgrey;
+        padding: 12px;
+    }
+    .register_form p {
+        position: relative;
+        font-size: 12px;
+        font-family: FuturaBookC;
+        width: 34px;
+        padding: 0px 6px;
+        margin-left: 17px;
+        border: 1px solid lightgrey;
+        top: 20px;
+        background-color: #fff;
+    }
+    .emailortel {
+        float: left;
+    }
+    .email {
+        width: 104px!important;
+    }
+    .password {
+        float: left;
+    }
+    .psw {
+        width: 50px!important;
+    }
+    .empas {
+        width: 310px!important;
+    }
+    .voy {
+        margin:0 155px!important;
+    }
+
+    // Шапка
+    .div-multi {
+        background-image: url(../img/promo/large_15841.jpg);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        #welcome {
+            margin-top: 150px;
+            padding-left: 20px;
+            font-family: FuturaBookC;
+            color: $neutral-color;
+            font-size: 38px;
+        }
+        #welcome1 {
+            margin-top: 26px;
+            padding-left: 5px;
+            font-family: Century;
+            color: $neutral-color;
+            font-size: 16px;
+            text-align: center;
+        }
+        .welcomebut {
+            font-family: FuturaBookC;
+            font-size: 18px;
+            font-style: normal;
+            background: $neutral-color;
+            color: $primary-color;
+            text-align: center;
+            transition: 0.15s;
+            box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+            border-radius: 2px;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+            width: 204px;
+            padding: 10px 0; 
+            margin-left: 450px;
+            margin-top: 23px;
+        }
+        .welcomebut:hover {
+            background: $primary-color;
+            color: $neutral-color;
+            font-family: FuturaBookC;
+            font-size: 18px;
+            font-style: normal;
+            text-decoration: none;
+        }
+        .welcomebut:active {
+            background: #1A7861;
+            color: $neutral-color;
+            font-family: FuturaBookC;
+            font-size: 18px;
+            font-style: normal;
+            box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+        }
+        #Arrow {
+            margin-top: 30px;
+            margin-left: 550px;
+        }
+    }
+    // 2 фрейм
+    #p1 {
+        width: 556px;
+        height: 536px;
+    }
+    .hero {
+        margin-top: 200px;
+    }
+    .title {
+        margin-top: 109px;
+        font-family: FuturaBookC;
+    }
+    // 3 фрейм
+    .frame3 {
+        margin-top: 144px;
+    }
+    // самый низ
+    .frame4 {
+        background-image: url(../img/promo/shveynoe-proizvodstvo-1_1.png);
+        max-width: 1140px;
+        margin-top: 166px;
+        min-height: 649px;
+        margin-bottom: 69px;
+    }
+    #easy {
+        margin-top: 150px;
+        font-family: FuturaBookC;
+        color: $neutral-color;
+        font-size: 38px;
+    }
+    #easy1 {
+        margin-top: 41px;
+        padding-left: 5px;
+        font-family: Century;
+        color: $neutral-color;
+        font-size: 16px;
+        text-align: center;
+        width: 397px;
+    }
+    .endbut {
+        font-family: FuturaBookC;
+        font-size: 18px;
+        font-style: normal;
+        background: $neutral-color;
+        color: $primary-color;
+        text-align: center;
+        transition: 0.15s;
+        box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        width: 398px;
+        padding: 17px 0; 
+        margin-left: 343px;
+        margin-top: 122px;
+    }
+    .endbut:hover {
+        background: $primary-color;
+        color: $neutral-color;
+        font-family: FuturaBookC;
+        font-size: 18px;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .endbut:active {
+        background: #1A7861;
+        color: $neutral-color;
+        font-family: FuturaBookC;
+        font-size: 18px;
+        font-style: normal;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    
+    // footer
+    .footer {
+        margin-top: 51px;
+        height: 150px!important;
+        background-color: $header-footer-color;
+        .container {
+            padding: 0 0;
+        }
+        .row-1 {
+            padding-top: 30px;
+        }
+        a {
+            color: $primary-color-text;
+            font-size: 16px;
+        }
+        p {
+            font-size: 12px;
+        }
+        .con {
+            margin-top: 44px;
+        }
+        .num {
+            margin-bottom: 4px;
+        }
+        .w-100 {
+            margin: 0;
+        }
+        .imges {
+            padding-top: 10px;
+            text-align: right;
+        }
+        .imges a {
+            text-decoration: none;
+        }
+        .images {
+            padding-right: 9px;
+            padding-top: 44px;
+        }
+        .last img{
+            padding-right: 0px;
+        }
+    }
+    .footr {
+        text-align: right;
+        text-decoration: none;
+    }
+    .footl {
+        text-align: left;
+        text-decoration: none;
+    }
+    .foot {
+        text-decoration: none;
+        text-align: center;
+    }
+    .button_up {
+        transition: 0.15s;
+        .button_up:hover > .button_up_hover {
+            visibility: visible;
+        }
+    }
+     // Контакты
+    .contacts {
+        height: 808px;
+        bottom: 39px;
+        z-index: 2;
+        .h1custom {
+            text-align: center;
+            margin-left: 0;
+        }
+        span {
+            font-family: Century;
+            font-size: 14px;
+            margin-left: 8px;
+        }
+    }
+    .form_cont {
+        position: relative;
+        background-color: $primary-color;
+        width: 458px;
+        height: 209px;
+        padding-top: 10px;
+        margin-top: 200px;
+        z-index: 2;
+    }
+    .icons {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 21px;
+        bottom: 205px;
+        z-index: 2;
+    }
+    .street {
+        margin-left: 15px!important;
+    }
+    .map {
+        position: relative;
+        bottom: 477px;
+        z-index: 1;
+        width: 869px;
+        left: 256px;
+        height: 513px;
+        background-image: url(../img/icons/map.png);
+    }
+    .icons_cont {
+        position: relative;
+        margin-left: 14.2px;
+        left: 4px;
+        bottom: 183.2px;
+        z-index: 2;
+    }
+    // Скачка
+    .down_zip {
+
+        position: absolute;
+        background-image: url(/img/icons/down.svg);
+        width: 251px;
+        height: 120.5px;
+        a {
+           font-family: Century;
+           font-size: 12px;
+           margin: 46px 25px!important;
+        }
+        .text {
+            margin: 43px 0;
+        }
+    }
+    // начальная страница (после промо)
+    .welcome:hover {
+        text-decoration: none;
+    }
+    .owl {
+        margin-top: 81px;
+        .item {
+            margin-top: 0;
+        }
+    }
+    .owl-dots {
+        margin-top: 10px;
+        .active {
+            span {
+                background-color: $primary-color!important;
+            }
+        }
+    }
+    .owl-dot {
+        outline: none;
+    }
+    .owl1 {
+        width: 1140px;
+        height: 513px;
+    }
+    .firstimg {
+        background: url(../img/welcome_str/first_banner.png);
+        transition: 0.15s;
+        width: 1100px;
+    }
+    .firstimg:hover {
+        background: url(../img/welcome_str/first_banner_hover.png);
+    }
+    .firstimg:active {
+        background: url(../img/welcome_str/first_banner_active.png)
+    }
+    .secondimg {
+        background: url(../img/welcome_str/second_banner.png);
+        transition: 0.15s;
+        width: 1100px;
+    }
+    .secondimg:hover {
+        background: url(../img/welcome_str/second_banner_hover.png);
+    }
+    .secondimg:active {
+        background: url(../img/welcome_str/second_banner_active.png)
+    }
+    .thirdimg {
+        background: url(../img/welcome_str/third_banner.png);
+        transition: 0.15s;
+        width: 1100px;
+    }
+    .thirdimg:hover {
+        background: url(../img/welcome_str/third_banner_hover.png);
+    }
+    .thirdimg:active {
+        background: url(../img/welcome_str/third_banner_active.png)
+    }
+    .right {
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+    .welcome_shoe {
+        width: 555px;
+        margin-left: 30px;
+    }
+    .second_pos {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    .div_shoe {
+        .fash {
+            padding: 0 15px;
+        }
+        .fash:first-child {
+            padding-right: 30px;
+            padding-left: 0;
+        }
+        .fash:last-child {
+            padding-right: 0;
+            padding-left: 20px;
+        }
+
+    }
+    // catalog (new page)
+    .h1custom {
+        margin-top: 52px;
+        text-align: center;
+        font-family: FuturaBookC;
+        font-size: 62px;
+        color: $primary-color-text;
+    }
+    // Быстрая навигация
+    .bread {
+        margin-top: 18px;
+        height: 61px;
+        background-color: $header-footer-color;
+    }
+    .fast {
+        padding: 16px;
+        margin-left: 62px;
+        margin-right: 112px;
+        p {
+            font-family: FuturaBookC!important;
+            width: 165px;
+            font-size: 20px;
+        }
+    }
+    .fast1 {
+        padding: 17px 0;
+        a {
+            font-family: FuturaBookC!important;
+            width: 117px!important;
+            font-size: 20px;
+            font-style: none;
+            color: $primary-color-text;
+        }
+    }
+    // Фильтры и сортировка
+    .filters {
+        margin-bottom: 42px;
+    }
+    .sort {
+        padding: 0 78px;
+        padding-top: 20px;
+        p {
+            a {
+                text-decoration: none;
+                color: $sort;
+            }
+        }
+        svg {
+            fill: $sort;
+        }
+    }
+    .div_sort {
+        border: none;
+        color: $primary-color;
+    }
+    .fil {
+        padding-top: 20px;
+        a {
+            text-decoration: none;
+            color: $sort;
+        }
+        svg {
+            fill: $sort;
+        }
+    }
+    .div_fil {
+        display: none;
+        z-index: 999;
+        background-image: url(../img/icons/div_filters.svg);
+        height: 402px;
+        width: 260px;
+        position: absolute;
+        padding-left: 16px;
+        padding-top: 43px;
+        p {
+            font-size: 18px;
+        }
+    }
+    .nali, .size, .color {
+        font-family: century;
+        font-size: 18px;
+    }
+    .price_filt {
+        width: 68px;
+        font-size: 9;
+        font-family: century;
+        outline: none;
+        border: 1px solid $header-footer-color;
+    }
+    .line_filt {
+        margin: 0 18px;
+    }
+    .icons_filt {
+        margin-left: 27px;
+    }
+    .otdo_price, .seazon, .sizes, .colors {
+        margin-top: 5px;
+    }
+    .icons_filt_first, .icons_filt {
+        width: 35px;
+        float: left;
+    }
+    .line1 {
+        margin-left: 14px;
+    }
+    .first {
+        margin-left: 20px;
+    }
+    .line2 {
+        margin-left: 16px;
+    }
+    //  Первый контейнер с одеждой
+    .shoes {
+        .col-4 {
+            padding-left: 0px;
+        }
+        .fash {
+            padding: 0 15px;
+            text-decoration: none;
+        }
+        .fash img {
+            width: 350px;
+        }
+        .fash:first-child{
+            padding-left: 0px;
+            padding-right: 30px;
+        }
+        .fash:last-child{
+            padding-left: 30px;
+            padding-right: 0px;
+        }
+    }
+    .first_shoe {
+        background-image: url(../img/Platya/8491223802_9_20_1.png);
+        background-size: 103%;
+        height: 100%;
+    }
+    // Различная акция
+    .red_top {
+        display: none;
+        height: 30px;
+        background-color: $accent-color;
+        p {
+            color: $neutral-color;
+            text-align: center;
+            font-size: 12px;
+            align-items: center;
+            margin-bottom: 0;
+            padding-top: 5px;
+            height: 30px;
+        }
+    }
+    // Размеры одежды
+    .vertical_text {
+        display: none;
+        float: right;
+        width: 35px;
+        height: 94%;
+        background: linear-gradient(180deg, rgba(248, 157, 186, 0) 0%, #F89DBA 100%);
+    }
+    .vertical {
+        text-align: center;
+        color: $neutral-color;
+        font-size: 12px;
+    }
+    .vert_1 {
+        margin-top: 120px;
+    }
+    .text {
+        margin-top: 6px;
+        text-align: center;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 16px;
+        font-family: Century;
+    }
+    .articul {
+        font-size: 9px;
+        margin-bottom: 78px;
+    }
+    .strike {
+        display: inline-block;
+        font-size: 14px;
+        color: #555555;
+        text-decoration: line-through;
+        font-family: Century;
+        margin-bottom: 1.1rem;
+    }
+    // второй блок одежды
+    .con2 {
+        padding-top: 10px;
+    }
+    // Полоска
+    .grad {
+        background: linear-gradient(180deg, #FBFBFB 0%, #BBBABA 100%);
+        height: 89px;
+        margin-top: 42px;
+    }
+    // Просмотренное
+    .last {
+        margin-top: 68px;
+        .last-word {
+            font-family: FuturaBookC;
+            font-size: 24px;
+        }
+    }
+    .last-shoes {
+        margin-top: 78px;
+        .name, .price, .articul {
+            text-align: center;
+        }
+    }
+    // кнопка
+    .chevron_up {
+        position: fixed;
+        bottom: 10%;
+        right: 2%;
+        z-index: 999;
+        background-image: url(../img/icons/chevron_ell.svg);
+        width: 50px;
+        height: 50px;
+        transition: 0.15s;
+    }
+    .chevron_up:hover{
+        background-image: url(../img/icons/chevron_ell_focus.svg);
+        width: 50px;
+        height: 50px;
+    }
+    .chevron_up:active {
+        background-image: url(../img/icons/chevron_ell_press.svg);
+        width: 50px;
+        height: 50px;
+    }
+
+    // Коллекция одежды
+    .narod {
+        background-image: url(../img/collections/Group_100.png);
+        width: 100%;
+        height: 417px;
+        text-decoration: none;
+    }
+    .dark_multi {
+        padding: 17px 67px;
+        height: 417px;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+
+    }
+    .collection_h1 {
+        font-family: FuturaBookC;
+        color: $neutral-color;
+        font-size: 30px;
+    }
+    .descript {
+        font-family: Century;
+        color: $neutral-color;
+        margin-top: 220px;
+        font-size: 20px;
+    }
+    .nice {
+        text-decoration: none;
+        background: url(../img/collections/Group_164.png);
+        width: 555px;
+        height: 304px;
+        margin-top: 30px;
+        .dark_multi {
+            padding: 20px 30px;
+            height: 304px;
+        }
+        .descript {
+            margin-top: 100px;
+        }
+    }
+    .kanye {
+        text-decoration: none;
+        background: url(../img/collections/Group_165.png);
+        height: 304px;
+        width: 555px;
+        margin-top: 30px;
+        .dark_multi {
+            height: 304px;
+        }
+        .descript {
+            margin-top: 100px;
+        }
+    }
+    // Карточка
+    // информация о товаре
+    .info_1 {
+        margin-top: 141px;
+        h1 {
+            font-family: FuturaBookC;
+            font-size: 47px;
+            margin-top: -9px;
+        }
+        .small {
+            width: 361px!important;
+            margin-top: 25px;
+        }
+        select {
+            margin-left: 15px;
+            margin-top: 52px;
+        }
+        a {
+            text-decoration: none;
+            color: $accent-color;
+        }
+    }
+    .main_img {
+        justify-content: end;
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+    .price_up {
+        font-family: FuturaBookC;
+        font-size: 26px;
+        text-align: end;
+        margin-top: -49px;
+    }
+    .num_otz {
+        font-family: FuturaBookC;
+        font-size: 24px;
+    }
+    .star {
+        margin-left: 10px;
+
+    }
+    .small_img {
+        text-align: center;
+        margin: 0;
+        margin-left: 28px;
+        transition: 0.15s;
+        width: 67px;
+        height: 65px;
+    }
+    .small_img:hover {
+        border: 1px solid $primary-color;
+    }
+    .small_img1 {
+        margin-left: 7px;
+    }
+    .buybut {
+        width: 121px;
+        height: 56px;
+        background: $neutral-color;
+        box-shadow: 1px 1px 3px rgba(248, 157, 186, 0.25);
+        border-radius: 2px;
+        text-align: center;
+        font-family: FuturaBookC;
+        font-size: 18px;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        padding: 15px;
+        color: $accent-color;
+        transition: 0.15s;
+        position: relative;
+        top: 51px;
+        left: 303px;
+    }
+    .buybut:hover {
+        color: $neutral-color;
+        background: $accent-color;
+    }
+    .buybut:active {
+        background: #BA7289;
+        border-radius: 2px;
+    }
+    .select-css {
+        width: 194px;
+        height: 56px;
+        font-family: FuturaBookC;
+        font-size: 18px;
+        background: #ECECEC;
+        border: none;
+    }
+    option:disabled {
+        color: #BBBABA;
+    }
+    .otzivi {
+        margin-top: 53px;
+    }
+    .naz {
+        text-align: center;
+        font-family: FuturaBookC;
+        font-size: 36px;
+    }
+    .pr {
+        height: 260px;
+        width: 1140px;
+        background-color: $neutral-color;
+        margin-top: 25px;
+    }
+    .con_otz {
+        margin: 20px 98px;
+    }
+    .text_otz {
+        width: 712px;
+        height: 220px;
+        background: #C4C4C4;
+        border: 2px solid #C4C4C4 ;
+        border-radius: 5px;
+        font-family: Century;
+        font-size: 16px;
+        padding: 20px 20px;
+        resize: none;
+    }
+    textarea:focus {
+        outline: none;
+        border-color: $primary-color;
+    }
+    .stars {
+        text-align: end;
+        position: relative;
+        left: 79%;
+        bottom: 236px;
+        img {
+            margin-right: 7px;
+            position: relative;
+            right: 7px;
+        }
+    }
+    .otpr {
+        a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+    .otprav {
+        background: #F7F7F7;
+        box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+        width: 137px;
+        height: 29px;
+        transition: 0.15s;
+        text-align: center;
+        padding: 5px;
+        font-family: FuturaBookC;
+        font-size: 12px;
+        position: relative;
+        left: 81%;
+        bottom: 110px;
+        border-radius: 2px;
+    }
+    .otprav:hover {
+        background: $primary-color;
+        color: $neutral-color;
+    }
+    .otprav:active {
+        background: #1A7861;
+        color: $neutral-color;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    // Написанные отзывы
+    // Важный отзыв
+    .otziv_primary {
+        height: 260px;
+        background: $primary-color;
+    }
+    .name_imya {
+        font-family: FuturaBookC;
+        font-size: 20px;
+        color: $neutral-color;
+        margin-top: 11px;
+    }
+    .otziv {
+        padding: 0 24px;
+        margin-top: 17px;
+        color: $neutral-color;
+    }
+    .str_wht {
+        margin-top: 0;
+        height: 0;
+        img {
+            margin: 5px 2px;
+        }
+    }
+    .reit_wht {
+        font-size: 20px;
+        font-family: FuturaBookC;
+        color: $neutral-color;
+    }
+    // стандартный отзыв
+    .otziv_standart {
+        background: $neutral-color;
+        margin-top: 43px;
+        height: 260px;
+    }
+    .otziv_blck {
+        color: $secondary-text-color;
+    }
+    .name_blck {
+        font-family: FuturaBookC;
+        color: #000000;
+    }
+    // Корзина
+    .info {
+        background: #E9E9E9;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .n {
+        font-family: FuturaBookC;
+        padding: 6px 15px;
+        height: 30px;
+    }
+    // карточка
+    .itog {
+        width: 292px;
+        height: 372px;
+        background: #E9E9E9;
+        padding: 0 15px;
+        padding-top: 33px;
+        float: right;
+        a {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+    .h1itog {
+        font-family: FuturaBookC;
+        font-size: 25px;
+    }
+    .price_itog {
+        margin-left: 139px;
+        margin-top: -35px;
+    }
+    .pitog_left {
+        margin-left: 139px;
+        margin-top: -31px;
+        font-family: FuturaBookC;
+        font-size: 14px;
+        color: #6A737D;
+    }
+    .pitog {
+        font-family: FuturaBookC;
+        font-size: 14px;
+        color: #6A737D;
+        width: 141px;
+        margin-top: 17px;
+    }
+    .skidka, input[type="checkbox"] + label::before {
+        background-color: $primary-color;
+    } 
+    .kupon {
+        font-family: FuturaBookC;
+        font-size: 14px;
+        border: none;
+        width: 246px;
+        height: 37px;
+        margin-top: 36px;
+        text-align: center;
+    }
+    .oform {
+        margin-top: 33px;
+        width: 246px;
+        height: 42px;
+        text-align: center;
+        background: $neutral-color;
+        padding: 8px;
+        transition: 0.15s;
+        box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+        border-radius: 2px;
+    }
+    .oform:hover {
+        background: #2AAA8B;
+        color: $neutral-color;
+    }
+    .oform:active {
+        background: #1A7861;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    .item {
+        margin-top: 24px;
+    }
+    .name_shoes {
+        font-family: FuturaBookC;
+        font-size: 45px;
+    }
+    .chars {
+        float: right;
+        margin-left: 127px;
+    }
+    .price1 {
+        font-family: FuturaBookC;
+        font-size: 26px;
+        position: relative;
+        left: 242px;
+        top: 29px;
+    }
+    .char {
+        font-family: Century;
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    .plsmns {
+        position: relative;
+        top: 61px;
+    }
+    .number {
+        position: relative;
+        top: 37px;
+        left: 45px;
+    }
+    .minus {
+        position: relative;
+        top: 1px;
+        left: 75px;
+    }
+    .del {
+        position: relative;
+        left: 305px;
+    }
+    .line {
+        margin-top: 34px;
+        margin-left: 0;
+    }
+    // Оформление заказа
+    .order {
+        margin-top: 20px;
+        a {
+            text-decoration: none;
+        }
+    }
+    .back {
+        width: 190px;
+        p {
+            float: right;
+            margin-left: 10px;
+            padding-top: 1px;
+        }
+    }
+    .secure {
+        .register_f {
+            height: 60px;
+        }
+        .register_form {
+            margin-left: 9px;
+            margin-right: 9px;
+            p:focus {
+                border-color: $primary-color;
+            }
+        }
+        .emailortel {
+            float: left;
+            margin-left: 20px;
+        }
+        .email {
+            width: 45px!important;
+        }
+        .password {
+            float: left;
+            margin-left: 58px;
+        }
+        .psw {
+            width: 55px!important;
+        }
+        .empas {
+            width: 310px!important;
+        }
+        input:focus {
+            border: 2px solid $primary-color;
+        }
+    }
+    .data {
+        margin-top: 40px;
+        a {
+            text-decoration: none;
+        }
+    }
+    .numord {
+        background: #C4C4C4;
+        width: 33px;
+        height: 33px;
+        padding: 4px 12px;
+        border-radius: 16px;
+    }
+    .datap {
+        font-family: FuturaBookC;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .urface {
+        float: right;
+        margin-top: 5px;
+        font-family: FuturaBookC;
+    }
+    .security {
+        text-align: right;
+    }
+    // Кастомный радиобаттон (способ получения)
+    .form_radio_group {
+        display: inline-block;
+        overflow: hidden;
+        margin-left: 28px;
+        margin-top: 30px;
+    }
+    .form_radio_group-item {
+        display: inline-block;
+        float: left;    
+    }
+    .form_radio_group input[type=radio] {
+        display: none;
+    }
+    .form_radio_group label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        line-height: 34px;
+        border: 1px solid $primary-color;
+        border-right: none;
+        user-select: none;
+    }
+     
+    .form_radio_group .form_radio_group-item:first-child label {
+        border-radius: 2px 0 0 2px;
+        height: 48px;
+        padding: 6px 24px;
+    }
+    .form_radio_group .form_radio_group-item:last-child label {
+        border-right: 1px solid $primary-color;
+        height: 48px;
+        padding: 6px 24px;
+    }
+     
+    /* Checked */
+    .form_radio_group input[type=radio]:checked + label {
+        background: $primary-color;
+        color: $neutral-color;
+    }
+     
+    /* Hover */
+    .form_radio_group label:hover {
+        color: #666;
+    }
+     
+    /* Disabled */
+    .form_radio_group input[type=radio]:disabled + label {
+        background: $neutral-color;
+        color: #666;
+    }
+    // Бокс с самовывозом или доставкой
+    .blockyour {
+        background: $header-footer-color;
+        height: 171px;
+        width: 835px;
+        margin-top: 30px;
+    }
+    .h2custom {
+        font-family: FuturaBookC;
+        font-size: 22px;
+        color: $primary-color-text;
+        height: 20px;
+    }
+    .yourself {
+        padding: 29px 24px;
+    }
+    .maporder {
+        float: right;
+        padding: 0;
+    }
+    .delivery {
+        text-align: right;
+        margin-top: -121px;
+    }
+    // место доставки
+    .deliv {
+        margin-top: 30px;
+        height: 131px;
+        display: none;
+    }
+    .form_deliv {
+        padding: 10px 7px;
+        width: 835px;
+        height: 131px;
+        background: $neutral-color;
+        input {
+            border-style: none;
+            padding: 11px 12px;
+            font-family: Century;
+            border: 2px solid lightgrey;
+            outline: none;
+        }
+        input:focus {
+            border: 2px solid $primary-color;
+        }
+    }
+    .zagolovok {
+        float: left;
+    }
+    .zagolovok1 {
+       width: 310px; 
+    }
+    .wrtadres {
+        padding: 1px 3px;
+        border-radius: 4px;
+        border: 2px solid lightgrey;
+        background: white;
+        width: 125px;
+        margin-left: 17px;
+        top: 20px;
+        position: relative;
+    }
+    .wrtadres_form {
+        border-radius: 5px;
+    }
+    .house {
+        width: 42px;
+        border-radius: 2px;
+        margin-left: 7px;
+    }
+    .house_form {
+        text-align: center;
+        border-radius: 1px;
+        width: 56px;
+        border-radius: 4px;
+    }
+    .kvartira {
+        width: 84px;
+        border-radius: 4px;
+        margin-left: 10px;
+    }
+    .kvartira_form {
+        text-align: center;
+        border-radius: 5px;
+        width: 104px;
+    }
+    .etazh {
+        width: 55px;
+        border-radius: 4px;
+        margin-left: 11px;
+    }
+    .etazh_form {
+        text-align: center;
+        border-radius: 5px;
+        width: 80px;
+    }
+    .index {
+        width: 70px;
+        border-radius: 4px;
+    }
+    .index_form {
+        text-align: center;
+        border-radius: 5px;
+        width: 110px;
+    }
+    //  Кастомный триггер (способы оплаты)
+    .form_radio_group {
+        display: inline-block;
+        overflow: hidden;
+        margin-left: 28px;
+        margin-top: 30px;
+    }
+    .form_radio_group-item {
+        display: inline-block;
+        float: left;    
+    }
+    .form_radio_group input[type=radio] {
+        display: none;
+    }
+    .form_radio_group label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        line-height: 34px;
+        border: 1px solid $primary-color;
+        border-right: none;
+        user-select: none;
+    }
+     
+    .form_radio_group .form_radio_group-item:first-child label {
+        border-radius: 2px 0 0 2px;
+        height: 48px;
+        padding: 6px 24px;
+    }
+    .form_radio_group .form_radio_group-item:last-child label {
+        border-right: 1px solid $primary-color;
+        height: 48px;
+        padding: 6px 24px;
+    }
+    /* Checked */
+    .form_radio_group input[type=radio]:checked + label {
+        background: $primary-color;
+        color: $neutral-color;
+    }
+     
+    /* Hover */
+    .form_radio_group label:hover {
+        color: #666;
+    }
+     
+    /* Disabled */
+    .form_radio_group input[type=radio]:disabled + label {
+        background: $neutral-color;
+        color: #666;
+    }
+    .box_ord {
+        background: $neutral-color;
+        margin-top: 30px;
+        height: 65px;
+        width: 861px;
+        padding: 19px 13px;
+        img {
+            width: 37px;
+            height: 37px;
+        }
+    }
+    .podskazka {
+        margin: 5px 15px;
+    }
+    .list_ord {
+        display: none;
+        padding: 20px 20px;
+        margin-top: 48px;
+        border-radius: 2px;
+        background: $header-footer-color;
+        border: 2px solid #95D5C5;
+        width: 835px;
+        height: 153px;
+    }
+    .radio {
+       width: 13px;
+       height: 13px;
+       margin-top: 5px; 
+    }
+    .form_beznal {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: FuturaBookC;
+        margin-left: 37px;
+        height: 18px;
+        width: 153px
+    }
+    .bank {
+        height: 24px;
+        width: 34px;
+        margin-left: 6px;
+        margin-top: -3px;
+    }
+    .line_ord {
+        height: 1px;
+        margin-top: -17px;
+    }
+    .col-vo {
+        margin-top: 29px;
+    }
+    .n-tov {
+        color: $primary-color-text;
+        text-decoration: none;
+        font-family: FuturaBookC
+    }
+    .podtverd {
+        background: $neutral-color;
+        font-family: FuturaBookC;
+        padding: 13px;
+        margin-top: 82px;
+        text-align: center;
+        text-decoration: none;
+        width: 210px;
+        height: 48px;
+        color: $accent-color;
+        transition: 0.15s;
+        border-radius: 2px;
+        box-shadow: 1px 1px 3px rgba(248, 157, 186, 0.25);
+        border-radius: 2px;
+    }
+    .podtverd:hover {
+        color: $neutral-color;
+        background: $accent-color;
+    }
+    .podtverd:active {
+        color: $neutral-color;
+        background: #BA7289;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    // товары быстрого доступа
+    .temporcard {
+        display: none;
+        .close {
+            background-image: url(../img/icons/cls_blck.svg);
+            color: $primary-color-text;
+            margin-top: -60px;
+            margin-right: -15px;
+        }
+        .itog {
+            width: 292px;
+            height: 172px;
+            background: $primary-color;
+            padding: 0 15px;
+            padding-top: 20px;
+            float: right;
+            margin-top: 40px;
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+        .h1itog {
+            font-family: FuturaBookC;
+            font-size: 25px;
+            color: $neutral-color;
+        }
+        .price_itog {
+            margin-left: 139px;
+            margin-top: -35px;
+        }
+        .pitog_left {
+            margin-left: 139px;
+            margin-top: -31px;
+            font-family: FuturaBookC;
+            font-size: 14px;
+            color: $neutral-color;
+        }
+        .pitog {
+            font-family: FuturaBookC;
+            font-size: 14px;
+            color: $neutral-color;
+            width: 141px;
+            margin-top: 17px;
+        }
+        .item {
+            margin-top: 24px;
+        }
+        .name_shoes {
+            font-family: FuturaBookC;
+            font-size: 45px;
+        }
+        .chars {
+            float: right;
+            margin-left: 127px;
+        }
+        .price1 {
+            font-family: FuturaBookC;
+            font-size: 26px;
+            position: relative;
+            left: 242px;
+            top: 29px;
+        }
+        .char {
+            font-family: Century;
+            font-size: 12px;
+            margin-top: 7px;
+        }
+        .plsmns {
+            position: relative;
+            top: 61px;
+        }
+        .number {
+            position: relative;
+            top: 37px;
+            left: 45px;
+        }
+        .minus {
+            position: relative;
+            top: 1px;
+            left: 75px;
+        }
+        .del {
+            position: relative;
+            left: 305px;
+        }
+        .line {
+            margin-top: 34px;
+            margin-left: 0;
+        }
+    }
+    // Доставка
+    .delivery_str {
+        margin-top: 30px;
+    }
+    // Настройка ul для доставки
+    .orig {
+        margin: 15px 0;
+        padding-left: 18px;
+        li {
+            padding-top: 10px;
+        }
+    }
+    // Страница пользователя
+    .user {
+        margin-top: 80px;
+    }
+    .change_data {
+        background-color: $neutral-color;
+        height: 516px;
+        padding: 18px 10px;
+        .register_form, input {
+            margin: 0;
+            background: $neutral-color;
+        }
+        .register_form {
+            height: 246px;
+            input {
+                width: 186px;
+            }
+        }
+        input {
+            border-radius: 2px;
+        }
+        .female_block {
+            float: right;
+        }
+        .empas {
+            width: 455px!important;
+        }
+        p {
+            margin-left: 5px;
+            background: $neutral-color;
+            border-radius: 2px;
+        }
+        input:focus {
+            border-color: $primary-color;
+        }
+    }
+    .your_data {
+        font-size: 24px;
+        font-family: FuturaBookC;
+    }
+    .calendar {
+        margin-top: 26px;
+        height: 95px;
+    }
+    .birthday {
+        float: left;
+    }
+    .birth {
+        font-size: 12px;
+        font-family: FuturaBookC;
+        position: relative;
+        border: 2px solid lightgrey;
+        width: 87px;
+        padding: 0 4px;
+        top: 22px;
+    }
+    .my_birth {
+        outline : none;
+        border: 2px solid lightgrey;
+        width: 156px;
+        height: 56px;
+        padding: 7px;
+    }
+    .cal {
+        width: 25px;
+        height: 25px;
+        border: none;
+        transition: 0.15s;
+    }
+    .cal:hover {
+        background: url(../img/icons/calendar_hover.svg)
+    }
+    .cal:active {
+        background: url(../img/icons/calendar_active.svg)
+    }
+    .pol {
+        margin-top: 25px;
+        float: right;
+        p {
+            text-align: center;
+            font-family: FuturaBookC;
+            font-size: 16px;
+        }
+        input {
+            margin-left: 10px;
+        }
+        label {
+            font-size: 16px;
+            font-family: FuturaBookC;
+        }
+    }
+    .change {
+        margin-top: 42px;
+        text-align: center;
+    }
+    .change_but {
+        text-decoration: none;
+        color: $primary-color;
+        font-family: FuturaBookC;
+        font-size: 14px;
+        background: #F7F7F7;
+        border-radius: 2px;
+        box-shadow: 1px 1px 3px rgba(42, 170, 139, 0.25);
+        width: 170px;
+        height: 34px;
+        padding: 7px 31px;
+        transition: 0.15s;
+    } 
+    .change_but:hover {
+        background: $primary-color;
+        color: $neutral-color;
+    }
+    .change_but:active {
+        background: #1A7861;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    .delivery_data {
+        margin-top: -5px;
+    }
+    .deliv_user {
+        width: 650px;
+        height: 250px;
+        padding: 18px 10px;
+        background: $neutral-color;
+    }
+    .point {
+        font-family: FuturaBookC;
+        font-size: 12px;
+        border: 2px solid lightgrey;
+        border-radius: 2px;
+        background: $neutral-color;
+        padding: 1px 3px;
+        width: 81px;
+        height: 25px;
+        margin-left: 5px;
+        position: relative;
+        top: 23px;
+    }
+    .delivery_user {
+        width: 625px;
+        height: 56px;
+        padding: 10px 12px;
+        overflow-wrap: break-word;
+        outline: none;
+        background: $neutral-color;
+        border: 2px solid lightgrey;
+        border-radius: 2px;
+    }
+    .delivery_user:focus {
+        border-color: $primary-color;
+    }
+    .sizes_acc {
+        text-align: center;
+        width: 650px;
+        margin-top: 77px;
+        background: $neutral-color;
+        height: 189px;
+        padding: 10px 11px;
+        p {
+            font-family: FuturaBookC;
+            font-size: 18px;
+        }
+        .select-css {
+            margin-top: 15px;
+        }
+    }
+    .quit_acc {
+        font-family: FuturaBookC;
+        font-size: 14px;
+        padding: 11px 21px;
+        background: $neutral-color;
+        color: $accent-color;
+        float: right;
+        left: 15px;
+        position: relative;
+        margin-top: 161px;
+        text-decoration: none;
+        box-shadow: 1px 1px 3px rgba(248, 157, 186, 0.25);
+        border-radius: 2px;
+        transition: 0.15s;
+        margin-bottom: 50px;
+    }
+    .quit_acc:hover {
+        background: $accent-color;
+        color: $neutral-color;
+    }
+    .quit_acc:active {
+        background: #BA7289;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    // 404
+    .err {
+        p {
+            font-family: FuturaBookC;
+            font-size: 40px;
+        }
+        a {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+    .error {
+        width: 989px;
+        height: 781px;
+        background: url(../img/ivents/error404.png);
+    }
+    // Успешная оплата
+    .suc {
+        p {
+            font-family: FuturaBookC;
+            font-size: 48px;
+        }
+        a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+    .success {
+        margin-top: 200px;
+        justify-content: center;
+        height: 412px;
+    }
+    .sucp {
+        margin-top: 80px;
+    }
+}

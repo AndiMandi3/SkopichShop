@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<title>Контакты</title>
+</head>
+    <body>
+			<!-- Десктопная шапка -->
+	<div class="d-none d-lg-block d-xl-block verh" height="250px">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light skicky-top nav-fill justify-content-center" height='250px'>
+			<div class="my-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto nav-fill justify-content-center">
+					<li class="nav-item col">
+						<a class="nav-link" href="catalog.html">Каталог <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Новинки</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Скидки</a>
+					</li>
+					<li class="nav-item navbar-right col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Коллекции</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="navbar-brand">
+						<a href="welcome.html" class="navbar-brand-cont">
+							<img srcset="img/icons/logo.svg">
+						</a>
+					</li>
+					<li class="navbar-rightt col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+					</li>
+					<li class="nav-item navbar-left col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Аксессуары</a>
+					</li>
+					<li class="nav-item col">
+						<a class="nav-link" href="delivery.html" tabindex="-1" aria-disabled="true">Доставка</a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Search.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icons/Profile.svg"></a>
+					</li>
+					<li class="nav-item-icon col">
+						<a class="nav-link" href="card.html" tabindex="-1" aria-disabled="true"><img src="img/icons/Basket.svg"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Мобильная версия -->
+	<div class="d-block d-lg-none">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-mobile">
+			<a class="navbar-brand navbar-brand-mobile" href="#">
+				<img src="img/icons/logo.svg" style="height: 178px;">
+			</a>
+			<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="my-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item nav-item-mobile active">
+						<a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item nav-item-mobile">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Элементы нав-бара -->
+	<!-- Поиск -->
+	<div class="search">
+		<img class="search_form" src="img/icons/Search_icon.svg">
+		<form action="/search/">
+			<input type="hidden" name="searchid" value="808327">
+			<input type="search" name="text" placeholder="Ищу...">
+		</form>
+	</div>
+	<!-- Вход/регистрация -->
+	<!-- Вход -->
+	<div class="login">
+		<div class="login_green">
+			<button type="button" class="close"></button>
+			<img class="logo" src="img/icons/logo_small.svg">
+		</div>
+		<div class="register_form">
+			<form class="register_f">
+				<div class="emailortel">
+					<p class="email">Email или телефон</p>
+					<input class="empas" type="text" name="uname" required>
+				</div>
+				<div class="password">
+					<p class="psw">Пароль</p>
+					<input class="empas" type="password" name="psw" required>
+				</div>
+			</form>
+		</div>
+		<a class="forget" href="#">Забыли пароль?</a>
+		<a class="voyti" type="button" name="voy" href="#">Войти</a>
+		<div class="lines">
+			<img class="line_left" src="img/icons/Line.svg">
+			<p class="fast_auto">быстрая авторизация</p>
+			<img class="line_right" src="img/icons/Line.svg">
+		</div>
+		<div class="sources">
+			<a class="vk" href="vk.com">
+				<img class="soc" src="img/icons/VK.svg">
+			</a> 
+			<a class="inst" href="instagram.com">
+				<img class="soc" src="img/icons/inst.svg">
+			</a>
+			<a class="but_reg" href="#">
+		</div>
+			<div class="reg" sticky="bottom">
+				<p>Регистрация</p>
+			</div>
+		</a>
+	</div>
+	<!-- Регистрация -->
+	<div class="register">
+		<div class="login_green">
+			<button type="button" class="close"></button>
+			<img class="logo" src="img/icons/logo_small.svg">
+		</div>
+		<div class="register_form">
+			<form class="register_f">
+				<div class="name_block name">
+					<p>Имя</p>
+					<input type="text" name="rname" required>
+				</div>
+				<div class="female_block">
+					<p class="fema">Фамилия</p>
+					<input class="fem" type="text" name="rfemale" required>
+				</div>
+				<div class="emailortel">
+					<p class="email">Email или телефон</p>
+					<input class="empas" type="text" name="uname" required>
+				</div>
+				<div class="password">
+					<p class="psw">Пароль</p>
+					<input class="empas" type="password" name="psw" required>
+				</div>
+			</form>
+		</div>
+		<a class="voyti" type="button" name="voy" href="#">Зарегистрироваться</a>
+		<div class="lines">
+			<img class="line_left" src="img/icons/Line.svg">
+			<p class="fast_auto">быстрая авторизация</p>
+			<img class="line_right" src="img/icons/Line.svg">
+		</div>
+		<div class="sources">
+			<a class="vk" href="vk.com">
+				<img class="soc" src="img/icons/VK.svg">
+			</a>
+			<a class="inst" href="instagram.com">
+				<img class="soc" src="img/icons/inst.svg">
+			</a>
+			<a class="but_reg" href="#">
+		</div>
+			<div class="reg" sticky="bottom">
+				<p class="voy">Войти</p>
+			</div>
+		</a>
+	</div>
+	<!-- Контакты -->
+    <div class="container contacts">
+			<h1 class="h1custom">КОНТАКТЫ</h1>
+			<div class="row form_cont">
+			</div>
+			<div class="row icons">
+				<img src="img/icons/geo.svg" >
+				<span class="street">г. Новосибирск, ул. Lorem Ipsum, д. lor, 000000</span>
+			</div>
+			<div class="row icons">
+				<img src="img/icons/phone.svg">
+				<span>+7 (***) *** ** **</span> <span>+3 (383) *** ** **</span>
+			</div>
+			<div class="row icons">
+				<img src="img/icons/mail.svg">
+				<span>Example@example.com</span>
+			</div>
+			<a href="vk.com" target="_blank">
+				<img class="icons_cont" src="img/icons/VK.svg">
+			</a>
+			<a href="instagram.com" target="_blank">
+				<img class="icons_cont" src="img/icons/inst.svg">
+			</a>
+			<div class="map"></div>
+		</div>
+			<!-- Подвал -->
+	<div class="d-none d-lg-block d-xl-block">
+		<div class="container-fluid sticky-bottom footer">
+			<div class="container">
+				<div class="row row-1">
+					<div class="col-3">
+						<a class="footl" href="#">Условия использования</a>
+					</div>
+					<div class="col-3 foot cont">
+						<a class="foot" href="contacts.html">Контакты</a>
+					</div>
+					<div class="col-3 foot">
+						<a class="foot" href="#">Прайс-лист</a>
+					</div>
+					<div class="col-3 footr">
+						<a class="footr" href="#">Поддержка</a>
+					</div>
+					<div class="row w-100">
+						<div class="col-6 con">
+							<p>Контактный телефон: 7-XXX-XXX-XX-XX</p>
+							<p class="num">Aдрес: г.Новосибрск, ул. Lorem Ipsum, д. Lor, 000000</p>
+						</div>
+						<div class="col-6 imges">
+							<a href="flump.ru" target="_blank" >
+								<img class="images" src="img/icons/logo-flamp-512x400 1.svg">
+							</a>
+							<a href="vk.com" target="_blank">
+								<img class="images" src="img/icons/VK.svg">
+							</a>
+							<a href="instagram.com" target="_blank" class="last">
+								<img class="images" src="img/icons/inst.svg">
+							</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+    </body>
+</html>

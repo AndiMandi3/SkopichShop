@@ -1,0 +1,22 @@
+/* century */
+@font-face {
+    font-family: "Century";
+    src: url("century.eot");
+    src: url("century.eot?#iefix") format("embedded-opentype"),
+         url("century.woff2") format("woff2"),
+         url("century.woff") format("woff"),
+		 url("century.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* FuturaBookC */
+@font-face {
+    font-family: "FuturaBookC";
+    src: url("futurabookc.eot");
+    src: url("futurabookc.eot?#iefix") format("embedded-opentype"),
+         url("futurabookc.woff2") format("woff2"),
+         url("futurabookc.woff") format("woff"),
+		 url("futurabookc.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

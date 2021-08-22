@@ -1,0 +1,351 @@
+# Translation of Plugins - FONDY — WooCommerce Payment Gateway - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - FONDY — WooCommerce Payment Gateway - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-19 07:09:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - FONDY — WooCommerce Payment Gateway - Stable (latest release)\n"
+
+#: includes/class-wc-fondy-gateway.php:584
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/class-wc-fondy-gateway.php:581
+msgid "There has been a critical error on your website."
+msgstr "На сайте возникла критическая ошибка."
+
+#: woocommerce-fondy.php:84
+msgid "The minimum WooCommerce version required for Fondy is %1$s. You are running %2$s."
+msgstr "Минимальная версия WooCommerce, необходимая для Fondy, составляет %1$s. Вы используете %2$s."
+
+#: woocommerce-fondy.php:80
+msgid "WooCommerce needs to be activated."
+msgstr "WooCommerce необходимо активировать."
+
+#: woocommerce-fondy.php:74
+msgid " The minimum PHP version required for Fondy is %1$s. You are running %2$s."
+msgstr "Минимальная версия PHP, необходимая для Fondy, составляет %1$s. Вы используете %2$s."
+
+#: includes/wc-fondy-subscriptions.php:58
+msgid "Customer not found."
+msgstr "Пользователь не найден."
+
+#: includes/wc-fondy-subscriptions.php:38
+#: includes/wc-fondy-subscriptions.php:87
+msgid "Payment failed (%s)"
+msgstr "Платеж не прошёл (%s)"
+
+#: includes/class-wc-fondy-gateway.php:1011
+msgid "Card saved."
+msgstr "Карта сохранена."
+
+#: includes/class-wc-fondy-gateway.php:646
+msgid "You must be logged in."
+msgstr "Вы должны быть авторизованы."
+
+#: includes/class-wc-fondy-gateway.php:502
+#: includes/class-wc-fondy-gateway.php:689
+msgid "Payment free trial verification"
+msgstr "Бесплатная проверка пробной версии"
+
+#: includes/class-wc-fondy-gateway.php:1081
+msgid "Redirection"
+msgstr "Переадресация"
+
+#: includes/class-wc-fondy-gateway.php:1080
+msgid "In-store payment page"
+msgstr "Страница оплаты в магазине"
+
+#: includes/class-wc-fondy-gateway.php:1079
+msgid "Built-in form"
+msgstr "Встроенная форма"
+
+#: includes/class-wc-fondy-gateway.php:261
+#: includes/class-wc-fondy-gateway.php:264
+msgid "Payment type"
+msgstr "Тип платежа"
+
+#: woocommerce-fondy.php:93
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-wc-fondy-gateway.php:255
+msgid "Show the MasterCard & Visa logo in the payment method section for the user"
+msgstr "Показывать логотипы MasterCard и Visa пользователям в разделе о способах оплаты пользователя"
+
+#: includes/class-wc-fondy-gateway.php:253
+msgid "Show MasterCard & Visa logos"
+msgstr "Отображать логотипы MasterCard и Visa"
+
+#: includes/class-wc-fondy-gateway.php:223
+msgid "Place the payment gateway in test mode using test Merchant id."
+msgstr "Переведите платёжный шлюз в тестовый режим, используя тестовый идентификатор продавца."
+
+#: includes/class-wc-fondy-gateway.php:221
+msgid "Enable Test Mode"
+msgstr "Включить тестовый режим"
+
+#: includes/class-wc-fondy-gateway.php:219
+msgid "Test mode:"
+msgstr "Тестовый режим:"
+
+#: includes/class-wc-fondy-gateway.php:844
+msgid "Payment method incorrect."
+msgstr "Неверный способ оплаты."
+
+#: includes/class-wc-fondy-gateway.php:321
+msgid "Default status"
+msgstr "Стандартный статус"
+
+#: includes/class-wc-fondy-gateway.php:309
+msgid "Order status when payment was declined."
+msgstr "Статус заказа при отклонении платежа."
+
+#: includes/class-wc-fondy-gateway.php:305
+msgid "Payment declined order status"
+msgstr "Статус заказа отклонённого платежа"
+
+#: includes/class-wc-fondy-gateway.php:302
+msgid "Order status when payment was expired."
+msgstr "Статус заказа при истечении срока платежа."
+
+#: includes/class-wc-fondy-gateway.php:298
+msgid "Payment expired order status"
+msgstr "Статус заказа платежа с истёкшим сроком"
+
+#: includes/class-wc-fondy-gateway.php:295
+msgid "The default order status after successful payment."
+msgstr "Стандартный статус заказа после успешной оплаты."
+
+#: includes/class-wc-fondy-gateway.php:291
+msgid "Payment completed order status"
+msgstr "Статус заказа успешного платежа"
+
+#: includes/class-wc-fondy-gateway.php:955
+msgid "Thank you for shopping with us. Your account has been charged and your transaction is successful."
+msgstr "Спасибо за покупку. Оплата прошла успешно "
+
+#: includes/class-wc-fondy-gateway.php:950
+msgid "Refund Fondy status: "
+msgstr "Статус возврата средств:"
+
+#: includes/class-wc-fondy-gateway.php:907
+msgid "Transaction ERROR: amount incorrect<br/>FONDY ID: "
+msgstr "Неверная сумма.<br/>FONDY ID: "
+
+#: includes/class-wc-fondy-gateway.php:901
+#: includes/class-wc-fondy-gateway.php:1131
+msgid "Fondy payment successful.<br/>FONDY ID: "
+msgstr "Платеж успешен.<br/>FONDY ID: "
+
+#: includes/class-wc-fondy-gateway.php:890
+msgid "Thank you for shopping with us. But your payment declined."
+msgstr "Спасибо за покупки. Но по вашему платежу получили отказ."
+
+#: includes/class-wc-fondy-gateway.php:878
+msgid "Transaction ERROR: order expired<br/>FONDY ID: "
+msgstr "ОШИБКА: срок действия заказа истек<br/> FONDY ID:"
+
+#: includes/class-wc-fondy-gateway.php:877
+msgid "Thank you for shopping with us. However, the transaction has been expired."
+msgstr "Спасибо что делаете покупки у нас. Но ваш перевод был отклонен"
+
+#: includes/class-wc-fondy-gateway.php:863
+msgid "Thank you for shopping with us. However, the transaction has been declined."
+msgstr "Спасибо за покупку ! . Тем не менее, оплата была отклонена ."
+
+#: includes/class-wc-fondy-gateway.php:859
+#: includes/wc-fondy-subscriptions.php:151
+msgid "An error has occurred during payment. Signature is not valid."
+msgstr "Произошла ошибка во время оплаты. Подпись недействительна."
+
+#: includes/class-wc-fondy-gateway.php:857
+msgid "Transaction ERROR: signature is not valid"
+msgstr "ОШИБКА транзакции: подпись недействительна"
+
+#: includes/class-wc-fondy-gateway.php:839
+#: includes/wc-fondy-subscriptions.php:141
+msgid "An error has occurred during payment. Merchant data is incorrect."
+msgstr "Произошла ошибка во время оплаты. Данные мерчанта неверны."
+
+#: includes/class-wc-fondy-gateway.php:835
+#: includes/wc-fondy-subscriptions.php:138
+msgid "Amount incorrect."
+msgstr "Неверная сумма"
+
+#: includes/class-wc-fondy-gateway.php:831
+msgid "An error has occurred during payment. Please contact us to ensure your order has submitted."
+msgstr "Ошибка при оплате. Пожалуйста свяжитесь с нами для уточнения деталей."
+
+#: includes/class-wc-fondy-gateway.php:762
+msgid "Refund Fondy status: Unknown. Try to contact support"
+msgstr "Статус возврата FONDY: Unknown. Пожалуйста, свяжитесь с поддержкой для уточнения деталей"
+
+#: includes/class-wc-fondy-gateway.php:761
+msgid "Refund Fondy status: Unknown"
+msgstr "Статус возврата FONDY: Unknown. Пожалуйста, свяжитесь с поддержкой для уточнения деталей"
+
+#: includes/class-wc-fondy-gateway.php:758
+#: includes/class-wc-fondy-gateway.php:759
+msgid "Refund Fondy status: Declined"
+msgstr "Статус возврата FONDY: Declined. Пожалуйста, свяжитесь с поддержкой для уточнения деталей"
+
+#: includes/class-wc-fondy-gateway.php:755
+msgid "Refund Fondy status: processing"
+msgstr "Статус возврата: processing"
+
+#: includes/class-wc-fondy-gateway.php:516
+msgid "Pay via Fondy.eu"
+msgstr "Оплатить с помощью FONDY"
+
+#: includes/class-wc-fondy-gateway.php:467
+msgid "Order: "
+msgstr "Заказ №:"
+
+#: includes/class-wc-fondy-gateway.php:396
+msgid "Pay"
+msgstr "Оплатить"
+
+#: includes/class-wc-fondy-gateway.php:390
+msgid "XXX"
+msgstr "XXX"
+
+#: includes/class-wc-fondy-gateway.php:374
+msgid "CVV2:"
+msgstr "CVV2:"
+
+#: includes/class-wc-fondy-gateway.php:371
+msgid "Expiry Date:"
+msgstr "СРОК ДЕЙСТВИЯ: "
+
+#: includes/class-wc-fondy-gateway.php:365
+msgid "XXXXXXXXXXXXXXXX"
+msgstr "xxxxxxxxxxxxxx"
+
+#: includes/class-wc-fondy-gateway.php:359
+msgid "Card Number:"
+msgstr "Номер карты:"
+
+#: includes/class-wc-fondy-gateway.php:336
+msgid "Fondy.eu"
+msgstr "FONDY.eu"
+
+#: includes/class-wc-fondy-gateway.php:287
+msgid "URL of success page"
+msgstr "Страница куда будет направлен пользователь после оплаты"
+
+#: includes/class-wc-fondy-gateway.php:286
+msgid "Default order page"
+msgstr "Стандартная страница возврата"
+
+#: includes/class-wc-fondy-gateway.php:284
+msgid "Return Page"
+msgstr "Страница ответа"
+
+#: includes/class-wc-fondy-gateway.php:278
+#: includes/class-wc-fondy-gateway.php:280
+msgid "Enable detecting site lang if it used"
+msgstr "Включить определение языка"
+
+#: includes/class-wc-fondy-gateway.php:276
+msgid "Enable force detect lang"
+msgstr "Определение языковых настроек"
+
+#: includes/class-wc-fondy-gateway.php:272
+msgid "Tick to show show recurring payment calendar on checkout"
+msgstr "Включает отображение платёжного календаря"
+
+#: includes/class-wc-fondy-gateway.php:270
+msgid "Show recurring payment calendar on checkout"
+msgstr "Показывать платежный календарь при оформлении заказа"
+
+#: includes/class-wc-fondy-gateway.php:268
+msgid "Show calendar on checkout"
+msgstr "Платёжный календарь на этапе оформления заказа"
+
+#: includes/class-wc-fondy-gateway.php:257
+msgid "Tick to show \"fondy\" logo"
+msgstr "Отметьте , чтобы отображать логотип."
+
+#: includes/class-wc-fondy-gateway.php:247
+msgid "Merchant secretkey"
+msgstr "Секретный ключ продавца"
+
+#: includes/class-wc-fondy-gateway.php:243
+#: includes/class-wc-fondy-gateway.php:249
+msgid "Given to Merchant by fondy"
+msgstr "Выдается мерчанту FONDY"
+
+#: includes/class-wc-fondy-gateway.php:241
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: includes/class-wc-fondy-gateway.php:237
+msgid "This controls the description which the user sees during checkout."
+msgstr "Описание которое видит пользователь в процессе оформления заказа."
+
+#: includes/class-wc-fondy-gateway.php:236
+msgid "Pay securely by Credit or Debit Card or Internet Banking through fondy service."
+msgstr "Оплатите безопасно с помощью кредитной или дебетовой карты или интернет-банкинга через  службы FONDY."
+
+#: includes/class-wc-fondy-gateway.php:234
+msgid "Description:"
+msgstr "Описание"
+
+#: includes/class-wc-fondy-gateway.php:230
+msgid "This controls the title which the user sees during checkout."
+msgstr "Заголовок на странице оформления заказа."
+
+#: includes/class-wc-fondy-gateway.php:229
+msgid "Fondy Online Payments"
+msgstr "Онлайн платежи FONDY"
+
+#: includes/class-wc-fondy-gateway.php:227
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: includes/class-wc-fondy-gateway.php:216
+msgid "Show in the Payment List as a payment option"
+msgstr "Показать в списке платежей как способ оплаты"
+
+#: includes/class-wc-fondy-gateway.php:214
+msgid "Enable Fondy Payment Module."
+msgstr "Включить модуль оплаты FONDY"
+
+#: includes/class-wc-fondy-gateway.php:212
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: includes/class-wc-fondy-gateway.php:169
+msgid "Place order"
+msgstr "Заказать"
+
+#: includes/class-wc-fondy-gateway.php:47
+#: includes/class-wc-fondy-gateway.php:337
+msgid "Payment gateway"
+msgstr "Платежный шлюз"
+
+#. Author URI of the plugin
+msgid "https://fondy.eu/"
+msgstr "https://fondy.ru/"
+
+#. Author of the plugin
+msgid "FONDY - Unified Payment Platform"
+msgstr "FONDY - Unified Payment Platform"
+
+#. Description of the plugin
+msgid "Fondy Payment Gateway for WooCommerce."
+msgstr "Платежный шлюз FONDY для WooCommerce."
+
+#. Plugin URI of the plugin
+msgid "https://fondy.eu"
+msgstr "https://fondy.ru/"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce - Fondy payment gateway"
+msgstr "WooCommerce - платежный шлюз Fondy"

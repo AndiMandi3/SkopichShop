@@ -1,0 +1,989 @@
+# Translation of Plugins - ACF Frontend for Elementor &#8211; Add and edit posts, pages, users and more - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - ACF Frontend for Elementor &#8211; Add and edit posts, pages, users and more - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-23 12:00:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - ACF Frontend for Elementor &#8211; Add and edit posts, pages, users and more - Stable (latest release)\n"
+
+#: includes/acf-field-settings/module.php:1898
+msgid "The password is too weak. Please make it stronger."
+msgstr "Пароль слишком слабый. Пожалуйста, выберите более сложный."
+
+#: includes/elementor/classes/content_tab.php:959
+msgid "Compact"
+msgstr "Компактный"
+
+#: includes/elementor/classes/content_tab.php:958
+#: includes/elementor/widgets/edit_button.php:422
+msgid "Normal"
+msgstr "Обычный"
+
+#: includes/elementor/widgets/edit_button.php:213
+msgid "Size"
+msgstr "Размер"
+
+#: includes/elementor/classes/content_tab.php:946
+msgid "Dark"
+msgstr "Темный"
+
+#: includes/elementor/classes/content_tab.php:945
+msgid "Light"
+msgstr "Светлый"
+
+#: includes/elementor/classes/content_tab.php:601
+#: includes/elementor/classes/content_tab.php:942
+#: includes/elementor/classes/content_tab.php:955
+msgid "Version"
+msgstr "Версия"
+
+#: includes/elementor/classes/content_tab.php:367
+msgid "Default Role Option"
+msgstr "Настройка роли по умолчанию"
+
+#: includes/acf-field-settings/module.php:220
+msgid "Set as sale price"
+msgstr "Установить как цену по скидке"
+
+#: includes/acfef-settings/module.php:129
+msgid "If this is your first time using ACF Frontend, we recommend you watch Paul Charlton from WPTuts beautifully explain how to use it."
+msgstr "Если вы впервые используете ACF Frontend, то мы рекомендуем посмотреть видео Paul Charlton-а с канала WPTuts, он прекрасно объясняет как пользоваться плагином"
+
+#: includes/acfef-settings/module.php:134
+msgid "If you have any questions at all please feel welcome to email shabti at"
+msgstr "Если у вас есть какие либо вопросы, можете смело писать на почту Шабти по адресу: "
+
+#: includes/acf-field-settings/module.php:466
+msgid "Limit the media library choice to specific Happy Files Categories"
+msgstr "Ограничить выбор медия библиотеки для определенный рубрик Happy Files"
+
+#: includes/acf-field-settings/module.php:465
+msgid "Happy Files Folder"
+msgstr "Папка Happy Files"
+
+#: includes/acf-field-settings/module.php:484
+msgid "Set as product gallery"
+msgstr "Использовать как галерею товара"
+
+#: includes/elementor/helpers/data_fetch.php:201
+msgid "All Folders"
+msgstr "Все папки"
+
+#: includes/acfef-settings/module.php:136
+msgid "or on whatsapp"
+msgstr "или по WhatsApp "
+
+#: includes/elementor/classes/payments.php:58
+#: includes/elementor/classes/payments.php:469
+#: includes/elementor/classes/content_tab.php:855
+#: includes/elementor/widgets/comments_list.php:595
+#: includes/elementor/widgets/comments_list.php:712
+#: includes/acf-field-settings/fields/upload-images.php:797
+#: includes/acf-field-settings/fields/upload-images.php:826
+#: includes/acf-field-settings/fields/upload-image.php:255
+#: includes/acf-field-settings/fields/upload-image.php:284
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/elementor/classes/payments.php:40
+#: includes/elementor/classes/content_tab.php:157
+#: includes/elementor/widgets/comments_list.php:271
+msgid "Label"
+msgstr "Заголовок поля"
+
+#: includes/elementor/actions/post.php:334
+#: includes/elementor/widgets/trash_button.php:168
+msgid "Enter the URL query parameter containing the id of the post you want to edit"
+msgstr "Введите параметр запроса URL включая id записи которую вы хотите изменить"
+
+#: includes/elementor/actions/post.php:331
+#: includes/elementor/actions/post.php:332
+#: includes/elementor/widgets/trash_button.php:165
+#: includes/elementor/widgets/trash_button.php:166
+msgid "post_id"
+msgstr "ID записи"
+
+#: includes/elementor/actions/post.php:319
+#: includes/elementor/actions/product.php:380
+#: includes/elementor/widgets/trash_button.php:157
+msgid "Url Query"
+msgstr "URL запрос"
+
+#: includes/elementor/actions/user.php:169
+msgid "Enter the URL query parameter containing the id of the user you want to edit"
+msgstr "Введите параметр запроса URL включая id пользователя которого вы хотите изменить"
+
+#: includes/elementor/actions/user.php:167
+#: includes/elementor/actions/user.php:168
+msgid "user_id"
+msgstr "ID пользователя"
+
+#: includes/elementor/actions/user.php:155
+#: includes/elementor/actions/user.php:165
+#: includes/elementor/actions/post.php:329
+#: includes/elementor/actions/product.php:390
+#: includes/elementor/widgets/trash_button.php:163
+msgid "URL Query"
+msgstr "URL запрос"
+
+#: includes/elementor/actions/product.php:215
+msgid "Structure the title field. You can use shortcodes for text fields. Foe example: [acf name=\"text\"]"
+msgstr "Структура поля заголовка. Вы можете использовать шорткоды для текстовых полей. Например: [acf name=\"text\"] "
+
+#: includes/elementor/actions/user.php:286
+msgid "Log in as new user?"
+msgstr "Войти как новый пользователь ? "
+
+#: includes/elementor/classes/content_tab.php:78
+msgid "Exclude Specific Fields"
+msgstr "Исключить конкретные поля"
+
+#: includes/acf-field-settings/module.php:348
+msgid "Set as post slug"
+msgstr "Использовать как ярлык записи"
+
+#: includes/acf-field-settings/module.php:213
+msgid "Set as product price"
+msgstr "Использовать как цену товара"
+
+#: includes/acf-field-settings/module.php:1885
+#: includes/acf-field-settings/module.php:1891
+msgid "The passwords do not match"
+msgstr "Пароли не совпадают"
+
+#: includes/acf-field-settings/module.php:387
+msgid "Set as password confirm"
+msgstr "Установить как подтверждение пароля"
+
+#: includes/elementor/classes/content_tab.php:233
+msgid "Required"
+msgstr "Обязательное"
+
+#: includes/elementor/classes/content_tab.php:1043
+#: includes/elementor/widgets/acf-frontend-form.php:547
+msgid "Field Seperator"
+msgstr "Разделитель полей"
+
+#: includes/elementor/widgets/acf-frontend-form.php:730
+msgid "Confirm Password"
+msgstr "Подтверждение пароля"
+
+#: includes/elementor/actions/post.php:467
+msgid "Want to finish later?"
+msgstr "Хотите закончить позже ?"
+
+#: includes/elementor/actions/post.php:465
+msgid "Save Draft Description"
+msgstr "Сохранить черновик описания"
+
+#: includes/acf-field-settings/module.php:1863
+msgid "The username contains illegal characters. Please enter only latin letters, numbers, @, -, . and _"
+msgstr "Имя пользователя содержит недопустимые символы. Пожалуйста, вводите только латинские буквы, цифры, @, -, . и _"
+
+#: includes/elementor/actions/user.php:300
+msgid "Managing User"
+msgstr "Управляющий пользователь"
+
+#: includes/elementor/classes/content_tab.php:385
+msgid "Strong"
+msgstr "Надежный"
+
+#: includes/elementor/classes/content_tab.php:384
+#: includes/elementor/widgets/edit_button.php:99
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/elementor/classes/content_tab.php:383
+msgid "Weak"
+msgstr "Слабый"
+
+#: includes/elementor/classes/content_tab.php:382
+msgid "Very Weak"
+msgstr "Очень слабый"
+
+#: includes/elementor/classes/content_tab.php:377
+msgid "Password Strength"
+msgstr "Надежность пароля"
+
+#: includes/elementor/widgets/acf-frontend-form.php:565
+msgid "Limit Submissions"
+msgstr "Ограничить отправки"
+
+#: includes/elementor/widgets/acf-frontend-form.php:217
+msgid "All done?"
+msgstr "Все закончено ?"
+
+#: includes/elementor/widgets/acf-frontend-form.php:215
+msgid "Submit Button Description"
+msgstr "Описание кнопки отправить"
+
+#: includes/elementor/actions/post.php:413
+#: includes/elementor/actions/product.php:460
+msgid "Enter the a comma-seperated list of term ids"
+msgstr "Введите разделенный запятыми список id таксономии"
+
+#: includes/elementor/actions/comment.php:101
+#: includes/elementor/actions/post.php:346
+#: includes/elementor/widgets/trash_button.php:179
+msgid "Enter the post ID"
+msgstr "Введите ID записи"
+
+#: includes/elementor/actions/user.php:182
+#: includes/elementor/actions/user.php:322
+msgid "Enter user id"
+msgstr "Введите ID пользователя"
+
+#: includes/elementor/actions/term.php:83
+msgid "Enter term id"
+msgstr "Введите ID таксономии"
+
+#: includes/elementor/actions/comment.php:100
+#: includes/elementor/actions/user.php:180
+#: includes/elementor/actions/user.php:320
+#: includes/elementor/actions/post.php:345
+#: includes/elementor/actions/term.php:82
+#: includes/elementor/actions/product.php:406
+#: includes/elementor/widgets/acf-frontend-form.php:302
+#: includes/elementor/widgets/trash_button.php:178
+msgid "18"
+msgstr "18"
+
+#: includes/elementor/widgets/status_button.php:163
+#: includes/elementor/widgets/acf-frontend-form.php:430
+#: includes/elementor/widgets/edit_button.php:347
+#: includes/elementor/widgets/trash_button.php:237
+msgid "Enter the a comma-seperated list of user ids"
+msgstr "Введите разделенный запятыми список id пользователей"
+
+#: includes/elementor/actions/post.php:412
+#: includes/elementor/actions/product.php:459
+#: includes/elementor/widgets/status_button.php:161
+#: includes/elementor/widgets/acf-frontend-form.php:428
+#: includes/elementor/widgets/edit_button.php:345
+#: includes/elementor/widgets/trash_button.php:235
+msgid "18, 12, 11"
+msgstr "18, 12, 11"
+
+#: includes/elementor/actions/post.php:455
+msgid "save as Draft"
+msgstr "Сохранить как черновик"
+
+#: includes/elementor/actions/post.php:454
+msgid "Save as Draft"
+msgstr "Сохранить как черновик"
+
+#: includes/elementor/actions/post.php:452
+msgid "Save Draft Text"
+msgstr "Сохранить черновик текста"
+
+#: includes/elementor/actions/post.php:516
+#: includes/elementor/actions/post.php:517
+msgid "&mdash; New Post &mdash;"
+msgstr "&mdash; Новая запись &mdash;"
+
+#: includes/elementor/actions/post.php:504
+msgid "Edit Draft Text"
+msgstr "Править текст черновика"
+
+#: includes/elementor/widgets/acf-frontend-form.php:598
+#: includes/elementor/widgets/acf-frontend-form.php:711
+#: includes/elementor/widgets/acf-fields.php:191
+msgid "Post Title"
+msgstr "Заголовок записи"
+
+#: includes/elementor/widgets/acf-frontend-form.php:619
+#: includes/elementor/widgets/acf-frontend-form.php:715
+#: includes/elementor/widgets/acf-fields.php:195
+msgid "Post Excerpt"
+msgstr "Отрывок записи"
+
+#: includes/elementor/widgets/acf-frontend-form.php:612
+#: includes/elementor/widgets/acf-frontend-form.php:713
+#: includes/elementor/widgets/acf-fields.php:193
+msgid "Post Content"
+msgstr "Содержимое записи"
+
+#: includes/elementor/widgets/acf-frontend-form.php:737
+#: includes/acfef-settings/admin-pages/hide_admin/settings.php:134
+msgid "Role"
+msgstr "Роль"
+
+#: includes/acfef-settings/module.php:126
+msgid "Hello and welcome"
+msgstr "Привет и добро пожаловать"
+
+#: includes/acf-field-settings/module.php:500
+msgid "Set as post image"
+msgstr "Установить как изображение записи"
+
+#: includes/acf-field-settings/module.php:440
+msgid "Set as post excerpt"
+msgstr "Установить как краткое описание записи"
+
+#: includes/acf-field-settings/module.php:380
+msgid "Set as user password"
+msgstr "Установить как пароль пользователя"
+
+#: includes/acf-field-settings/module.php:369
+#: includes/acf-field-settings/module.php:418
+#: includes/acf-field-settings/module.php:454
+msgid "Read only"
+msgstr "Только чтение"
+
+#: includes/elementor/classes/content_tab.php:448
+#: includes/acf-field-settings/module.php:355
+msgid "Set as username"
+msgstr "Установить как имя пользователя"
+
+#: includes/acf-field-settings/module.php:341
+msgid "Set as post title"
+msgstr "Установить как заголовок записи "
+
+#: includes/elementor/actions/post.php:440
+msgid "Save As Draft Option"
+msgstr "Сохранить как опцию черновика"
+
+#: includes/elementor/actions/post.php:514
+msgid "New Draft Text"
+msgstr "Текст нового черновика "
+
+#: includes/elementor/actions/post.php:506
+#: includes/elementor/actions/post.php:507
+msgid "Edit a draft"
+msgstr "Редактировать черновик"
+
+#: includes/elementor/actions/post.php:491
+msgid "Show Saved Drafts Selection"
+msgstr "Показать секцию с сохраненными черновиками"
+
+#: includes/acf-field-settings/module.php:429
+msgid "Set as post content"
+msgstr "Установить как содержимое записи"
+
+#: includes/elementor/actions/user.php:250
+#: includes/elementor/widgets/comments_list.php:121
+#: includes/elementor/widgets/acf-frontend-form.php:733
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: includes/elementor/actions/user.php:249
+#: includes/elementor/widgets/comments_list.php:120
+#: includes/elementor/widgets/acf-frontend-form.php:732
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/elementor/actions/user.php:127
+msgid "User Settings"
+msgstr "Настройки пользователя"
+
+#: includes/elementor/actions/post.php:296
+msgid "Post Status"
+msgstr "Статус записи"
+
+#: includes/elementor/actions/post.php:410
+#: includes/elementor/actions/post.php:421
+#: includes/elementor/actions/product.php:457
+#: includes/elementor/actions/product.php:468
+msgid "Terms"
+msgstr "Таксономии"
+
+#: includes/elementor/actions/post.php:144
+msgid "Post Settings"
+msgstr "Настройки записи"
+
+#: includes/elementor/actions/post.php:393
+msgid "New Post Terms"
+msgstr "Таксономии новой записи"
+
+#: includes/elementor/classes/content_tab.php:1037
+#: includes/elementor/widgets/acf-frontend-form.php:541
+msgid "Below Field"
+msgstr "Поле ниже"
+
+#: includes/elementor/classes/content_tab.php:1036
+#: includes/elementor/widgets/acf-frontend-form.php:540
+msgid "Above Field"
+msgstr "Поле выше"
+
+#: includes/elementor/classes/content_tab.php:1033
+#: includes/elementor/widgets/acf-frontend-form.php:537
+msgid "Instruction Position"
+msgstr "Позиция инструкции"
+
+#: includes/elementor/classes/content_tab.php:42
+msgid "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Go pro</b></a> to unlock multi step forms.</p>"
+msgstr "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Купить pro</b></a> для использования мульти шаговых форм.</p>"
+
+#: includes/elementor/widgets/acf-frontend-form.php:717
+#: includes/elementor/widgets/acf-fields.php:197
+msgid "Tags"
+msgstr "Метки"
+
+#: includes/elementor/widgets/acf-frontend-form.php:716
+#: includes/elementor/widgets/acf-fields.php:196
+msgid "Categories"
+msgstr "Рубрики"
+
+#: includes/elementor/widgets/acf-frontend-form.php:626
+#: includes/elementor/widgets/acf-frontend-form.php:714
+#: includes/elementor/widgets/acf-fields.php:194
+msgid "Featured Image"
+msgstr "Изображение записи"
+
+#: includes/elementor/classes/content_tab.php:1012
+#: includes/elementor/widgets/comments_list.php:717
+#: includes/elementor/widgets/acf-frontend-form.php:516
+msgid "Inline"
+msgstr "В линию"
+
+#: includes/elementor/classes/content_tab.php:1011
+#: includes/elementor/widgets/acf-frontend-form.php:515
+msgid "Above"
+msgstr "Над"
+
+#: includes/elementor/classes/content_tab.php:1008
+#: includes/elementor/widgets/acf-frontend-form.php:512
+msgid "Label Position"
+msgstr "Позиция заголовка"
+
+#: includes/elementor/widgets/acf-frontend-form.php:332
+msgid "Submit Message"
+msgstr "Отправить сообщение"
+
+#: includes/elementor/widgets/acf-frontend-form.php:235
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/elementor/helpers/data_fetch.php:77
+#: includes/elementor/widgets/acf-frontend-form.php:718
+#: includes/elementor/widgets/acf-fields.php:198
+msgid "Post Author"
+msgstr "Автор записи"
+
+#: includes/elementor/widgets/submit_button.php:115
+#: includes/elementor/widgets/status_button.php:202
+#: includes/elementor/widgets/acf-frontend-form.php:692
+#: includes/elementor/widgets/acf-fields.php:172
+#: includes/elementor/widgets/trash_button.php:276
+msgid "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Go Pro</b></a> to unlock styles.</p>"
+msgstr "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Купить pro</b></a>для применения стилей</p>"
+
+#: includes/elementor/widgets/submit_button.php:110
+#: includes/elementor/widgets/status_button.php:197
+#: includes/elementor/widgets/acf-frontend-form.php:687
+#: includes/elementor/widgets/acf-fields.php:167
+#: includes/elementor/widgets/trash_button.php:271
+msgid "Styles"
+msgstr "Стили"
+
+#: includes/acfef-settings/admin-pages/local-avatar/settings.php:38
+msgid "Local Gravatar"
+msgstr "Локальный Gravatar"
+
+#: includes/elementor/widgets/acf-frontend-form.php:570
+msgid "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Go pro</b></a> to unlock limit submissions.</p>"
+msgstr "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Купить pro</b></a> для возможности лимитировать количество отправки формы.</p>"
+
+#: includes/elementor/widgets/acf-frontend-form.php:241
+msgid "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Go pro</b></a> to unlock more actions.</p>"
+msgstr "<p><a target=\"_blank\" href=\"https://www.frontendform.com/\"><b>Купить pro</b></a> для больших возможностей.</p>"
+
+#: includes/elementor/actions/user.php:248
+#: includes/elementor/actions/email.php:25
+#: includes/elementor/widgets/acf-frontend-form.php:731
+msgid "Email"
+msgstr "Электронная почта"
+
+#: includes/elementor/widgets/acf-frontend-form.php:729
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/elementor/actions/user.php:247
+#: includes/elementor/widgets/acf-frontend-form.php:640
+#: includes/elementor/widgets/acf-frontend-form.php:728
+msgid "Username"
+msgstr "Имя пользователя"
+
+#. Plugin Name of the plugin
+#: acf-frontend.php:224 acf-frontend.php:247
+#: includes/elementor/actions/email.php:445
+msgid "ACF Frontend"
+msgstr "ACF Frontend"
+
+#: includes/acfef-settings/admin-pages/hide_admin/settings.php:74
+msgid "Hide WordPress Admin Area"
+msgstr "Скрыть консоль WordPress"
+
+#: includes/acfef-settings/admin-pages/hide_admin/settings.php:77
+msgid "Hide Admin Area"
+msgstr "Скрыть админку"
+
+#: includes/elementor/widgets/edit_term.php:44
+#: includes/elementor/widgets/acf-frontend-form.php:824
+msgid "Edit Term"
+msgstr "Редактировать значение"
+
+#: includes/elementor/actions/post.php:399
+#: includes/elementor/actions/term.php:70
+#: includes/elementor/actions/product.php:447
+msgid "Select Term"
+msgstr "Выбрать значение"
+
+#: includes/elementor/actions/post.php:398
+#: includes/elementor/actions/term.php:69
+#: includes/elementor/actions/product.php:446
+msgid "Current Term"
+msgstr "Текущее значение"
+
+#: includes/elementor/actions/term.php:65
+msgid "Term To Edit"
+msgstr "Значение для редактирование"
+
+#: includes/elementor/actions/term.php:23
+#: includes/elementor/actions/term.php:80
+#: includes/elementor/actions/term.php:91
+#: includes/elementor/widgets/acf-frontend-form.php:741
+msgid "Term"
+msgstr "Значение"
+
+#: includes/elementor/classes/content_tab.php:888
+#: includes/elementor/widgets/acf-frontend-form.php:373
+msgid "None"
+msgstr "Нет"
+
+#: includes/acf-field-settings/module.php:1860
+msgid "The username "
+msgstr "Имя пользователя"
+
+#: includes/elementor/actions/user.php:274
+msgid "Hide WordPress Admin Area?"
+msgstr "Скрыть админ консоль WordPress ?"
+
+#: includes/elementor/actions/user.php:262
+msgid "New User Role"
+msgstr "Новая роль пользователя"
+
+#: includes/elementor/classes/content_tab.php:993
+#: includes/elementor/widgets/acf-frontend-form.php:497
+msgid "Display Options"
+msgstr "Настройки вывода"
+
+#: includes/elementor/widgets/acf-frontend-form.php:488
+msgid "<p>Click <a target=\"_blank\" href=\""
+msgstr "<p>Нажать <a target=\"_blank\" href=\""
+
+#: includes/elementor/classes/content_tab.php:58
+#: includes/elementor/widgets/acf-frontend-form.php:705
+#: includes/elementor/widgets/acf-fields.php:185
+msgid "ACF Field Groups"
+msgstr "Группы полей ACF"
+
+#: includes/elementor/classes/content_tab.php:68
+#: includes/elementor/widgets/acf-frontend-form.php:704
+#: includes/elementor/widgets/acf-fields.php:94
+#: includes/elementor/widgets/acf-fields.php:184
+msgid "ACF Fields"
+msgstr "Поля ACF"
+
+#: includes/elementor/widgets/acf-frontend-form.php:823
+msgid "New User"
+msgstr "Новый пользователь"
+
+#: includes/acfef-settings/admin-pages/uploads-privacy/settings.php:18
+msgid "Media Uploads Privacy"
+msgstr "Приватность загрузок медиафайлов"
+
+#: includes/elementor/widgets/acf-frontend-form.php:486
+msgid "<h3>Media Privacy</h3>"
+msgstr "<h3>Приватность медиа</h3>"
+
+#: acf-frontend.php:343
+msgid "Video Tutorials"
+msgstr "Видео уроки"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/acf-frontend-form-element/"
+msgstr "https://wordpress.org/plugins/acf-frontend-form-element/"
+
+#: includes/elementor/actions/post.php:213
+#: includes/elementor/actions/post.php:214
+#: includes/elementor/widgets/status_button.php:114
+#: includes/elementor/widgets/status_button.php:115
+#: includes/elementor/widgets/trash_button.php:114
+#: includes/elementor/widgets/trash_button.php:115
+msgid "The post will be deleted. Are you sure?"
+msgstr "Запись будет удалена. Вы уверены ?"
+
+#: includes/elementor/actions/post.php:211
+#: includes/elementor/actions/product.php:270
+#: includes/elementor/widgets/status_button.php:112
+#: includes/elementor/widgets/trash_button.php:112
+msgid "Confirm Delete Message"
+msgstr "Подтвердить удаление сообщение"
+
+#: includes/elementor/actions/post.php:188
+#: includes/elementor/actions/post.php:189
+#: includes/elementor/actions/product.php:247
+#: includes/elementor/actions/product.php:248
+#: includes/elementor/widgets/status_button.php:104
+#: includes/elementor/widgets/status_button.php:105
+#: includes/elementor/widgets/trash_button.php:104
+#: includes/elementor/widgets/trash_button.php:105
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/elementor/actions/post.php:186
+#: includes/elementor/actions/product.php:245
+#: includes/elementor/widgets/status_button.php:102
+#: includes/elementor/widgets/trash_button.php:102
+msgid "Delete Button Text"
+msgstr "Текст кнопки удаления"
+
+#: includes/elementor/actions/post.php:172
+msgid "Delete Post Option"
+msgstr "Опция удаления записи"
+
+#: includes/elementor/actions/post.php:258
+#: includes/elementor/actions/product.php:317
+#: includes/elementor/widgets/status_button.php:127
+#: includes/elementor/widgets/acf-frontend-form.php:280
+#: includes/elementor/widgets/trash_button.php:137
+msgid "Enter Url Here"
+msgstr "Введите URL сюда"
+
+#: includes/elementor/actions/post.php:243
+#: includes/elementor/actions/product.php:303
+#: includes/elementor/widgets/acf-frontend-form.php:250
+#: includes/elementor/widgets/acf-frontend-form.php:278
+#: includes/elementor/widgets/trash_button.php:130
+msgid "Custom Url"
+msgstr "Произвольный URL"
+
+#: includes/elementor/widgets/acf-frontend-form.php:245
+msgid "Redirect After Submit"
+msgstr "Переадресация после публикации "
+
+#: includes/elementor/actions/post.php:304
+#: includes/elementor/actions/product.php:364
+msgid "Published"
+msgstr "Опубликовано"
+
+#: includes/elementor/actions/post.php:303
+#: includes/elementor/actions/product.php:363
+msgid "Pending Review"
+msgstr "На утверждении"
+
+#: includes/elementor/actions/post.php:302
+#: includes/elementor/actions/product.php:362
+msgid "Private"
+msgstr "Личное"
+
+#: includes/elementor/actions/post.php:301
+#: includes/elementor/actions/product.php:361
+msgid "Draft"
+msgstr "Черновик"
+
+#: includes/elementor/actions/post.php:382
+msgid "New Post Type"
+msgstr "Новый тип записи"
+
+#: includes/elementor/widgets/status_button.php:135
+#: includes/elementor/widgets/acf-frontend-form.php:472
+#: includes/elementor/widgets/edit_button.php:306
+#: includes/elementor/widgets/trash_button.php:209
+msgid "Permissions"
+msgstr "Права доступа"
+
+#: includes/acf-field-settings/fields/upload-images.php:436
+#: includes/acf-field-settings/fields/upload-image.php:139
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/elementor/classes/payments.php:266
+#: includes/elementor/classes/content_tab.php:91
+#: includes/elementor/classes/content_tab.php:101
+#: includes/elementor/classes/content_tab.php:149
+#: includes/elementor/classes/content_tab.php:236
+#: includes/elementor/classes/content_tab.php:247
+#: includes/elementor/classes/content_tab.php:258
+#: includes/elementor/classes/content_tab.php:269
+#: includes/elementor/classes/content_tab.php:435
+#: includes/elementor/classes/content_tab.php:451
+#: includes/elementor/classes/content_tab.php:461
+#: includes/elementor/classes/content_tab.php:508
+#: includes/elementor/classes/content_tab.php:971
+#: includes/elementor/classes/content_tab.php:1127
+#: includes/elementor/actions/user.php:289
+#: includes/elementor/actions/post.php:175
+#: includes/elementor/actions/post.php:443
+#: includes/elementor/actions/post.php:494
+#: includes/elementor/actions/product.php:234
+#: includes/elementor/helpers/modal.php:142
+#: includes/elementor/widgets/acf-frontend-form.php:319
+#: includes/elementor/widgets/acf-frontend-form.php:327
+#: includes/elementor/widgets/acf-frontend-form.php:481
+msgid "No"
+msgstr "Нет"
+
+#: includes/elementor/helpers/modal.php:139
+msgid "Show in Modal"
+msgstr "Показать в всплывающем окне "
+
+#: includes/elementor/helpers/modal.php:152
+msgid "Modal Button Text"
+msgstr "Текст кнопки всплывающего окна"
+
+#: includes/elementor/helpers/forms.php:30
+#: includes/elementor/widgets/edit_post.php:45
+#: includes/elementor/widgets/edit_term.php:45
+#: includes/elementor/widgets/edit_options.php:45
+#: includes/elementor/widgets/submit_button.php:99
+#: includes/elementor/widgets/submit_button.php:100
+#: includes/elementor/widgets/edit_user.php:45
+#: includes/elementor/widgets/acf-frontend-form.php:64
+#: includes/acf-field-settings/fields/upload-images.php:697
+#: includes/acf-field-settings/module.php:954
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/elementor/widgets/submit_button.php:103
+#: includes/elementor/widgets/acf-frontend-form.php:202
+msgid "Submit Button Text"
+msgstr "Текст кнопки «Отправить»"
+
+#: includes/elementor/classes/payments.php:265
+#: includes/elementor/classes/content_tab.php:90
+#: includes/elementor/classes/content_tab.php:100
+#: includes/elementor/classes/content_tab.php:148
+#: includes/elementor/classes/content_tab.php:235
+#: includes/elementor/classes/content_tab.php:246
+#: includes/elementor/classes/content_tab.php:257
+#: includes/elementor/classes/content_tab.php:268
+#: includes/elementor/classes/content_tab.php:434
+#: includes/elementor/classes/content_tab.php:450
+#: includes/elementor/classes/content_tab.php:460
+#: includes/elementor/classes/content_tab.php:497
+#: includes/elementor/classes/content_tab.php:970
+#: includes/elementor/classes/content_tab.php:1126
+#: includes/elementor/actions/user.php:288
+#: includes/elementor/actions/post.php:174
+#: includes/elementor/actions/post.php:442
+#: includes/elementor/actions/post.php:493
+#: includes/elementor/actions/product.php:233
+#: includes/elementor/helpers/modal.php:141
+#: includes/elementor/widgets/acf-frontend-form.php:318
+#: includes/elementor/widgets/acf-frontend-form.php:326
+#: includes/elementor/widgets/acf-frontend-form.php:480
+msgid "Yes"
+msgstr "Да"
+
+#: includes/elementor/classes/content_tab.php:999
+#: includes/elementor/classes/content_tab.php:1022
+#: includes/elementor/classes/content_tab.php:1045
+#: includes/elementor/actions/user.php:276
+#: includes/elementor/widgets/acf-frontend-form.php:503
+#: includes/elementor/widgets/acf-frontend-form.php:526
+#: includes/elementor/widgets/acf-frontend-form.php:549
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/elementor/classes/content_tab.php:1000
+#: includes/elementor/classes/content_tab.php:1023
+#: includes/elementor/classes/content_tab.php:1046
+#: includes/elementor/actions/user.php:277
+#: includes/elementor/widgets/acf-frontend-form.php:504
+#: includes/elementor/widgets/acf-frontend-form.php:527
+#: includes/elementor/widgets/acf-frontend-form.php:550
+msgid "Show"
+msgstr "Показать"
+
+#: includes/elementor/widgets/edit_post.php:44
+#: includes/elementor/widgets/acf-frontend-form.php:63
+#: includes/elementor/widgets/acf-frontend-form.php:820
+#: includes/elementor/widgets/edit_button.php:146
+#: includes/elementor/widgets/edit_button.php:147
+msgid "Edit Post"
+msgstr "Редактировать запись"
+
+#: includes/elementor/widgets/acf-frontend-form.php:183
+msgid "Form Title"
+msgstr "Заголовок формы"
+
+#: includes/elementor/classes/content_tab.php:24
+msgid "Fields"
+msgstr "Поля"
+
+#: includes/elementor/widgets/status_button.php:93
+#: includes/elementor/widgets/acf-frontend-form.php:401
+#: includes/elementor/widgets/edit_button.php:297
+#: includes/elementor/widgets/trash_button.php:93
+#: includes/acf-field-settings/module.php:276
+msgid "All Users"
+msgstr "Все пользователи"
+
+#: acf-frontend.php:332
+msgid "PHP"
+msgstr "PHP"
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: acf-frontend.php:306 acf-frontend.php:330
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" требует \"%2$s\" версию %3$s либо более позднюю."
+
+#: acf-frontend.php:248
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: acf-frontend.php:225 acf-frontend.php:308
+msgid "Elementor"
+msgstr "Elementor"
+
+#: acf-frontend.php:307 acf-frontend.php:331
+msgid "ACF Elementor Form"
+msgstr "ACF Elementor Form"
+
+#. translators: 1: Plugin name 2: Elementor
+#. translators: 1: Plugin name 2: Advanced Custom Fields
+#: acf-frontend.php:223 acf-frontend.php:246
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "%1$s\" требует установки и активации \"%2$s\"."
+
+#: includes/elementor/widgets/status_button.php:92
+#: includes/elementor/widgets/acf-frontend-form.php:400
+#: includes/elementor/widgets/edit_button.php:296
+#: includes/elementor/widgets/trash_button.php:92
+msgid "Only Logged Out"
+msgstr "Только для не авторизованных"
+
+#: includes/elementor/widgets/status_button.php:91
+#: includes/elementor/widgets/acf-frontend-form.php:399
+#: includes/elementor/widgets/edit_button.php:295
+#: includes/elementor/widgets/trash_button.php:91
+msgid "Only Logged In Users"
+msgstr "Только для авторизованных пользователей"
+
+#: includes/elementor/widgets/acf-frontend-form.php:91
+msgid "ACF Frontend Form"
+msgstr "ACF Frontend Form"
+
+#. Author URI of the plugin
+msgid "https://kaplanwebdev.com/"
+msgstr "https://kaplanwebdev.com/"
+
+#. Author of the plugin
+msgid "Shabti Kaplan"
+msgstr "Shabti Kaplan"
+
+#. Description of the plugin
+msgid "An ACF and Elementor extension that allows you to easily display ACF frontend forms on your site so your clients can easily edit the content by themselves from the frontend."
+msgstr "Расширение для ACF и Elementor, которое помогает легко отображать фронтенд формы ACF на вашем сайте, и ваши клиенты могут с легкостью редактировать содержимое сами прямо с фронтенда. "
+
+#: includes/elementor/actions/user.php:23
+#: includes/elementor/actions/user.php:178
+#: includes/elementor/actions/user.php:190
+#: includes/elementor/actions/user.php:318
+#: includes/elementor/actions/user.php:330
+#: includes/elementor/widgets/acf-frontend-form.php:726
+#: includes/acfef-settings/admin-pages/hide_admin/settings.php:133
+msgid "User"
+msgstr "Пользователь"
+
+#: includes/elementor/actions/user.php:156
+#: includes/elementor/actions/user.php:307
+msgid "Select User"
+msgstr "Выберите пользователя"
+
+#: includes/elementor/actions/user.php:154
+#: includes/elementor/actions/user.php:305
+#: includes/acf-field-settings/module.php:245
+msgid "Current User"
+msgstr "Текущий пользователь"
+
+#: includes/elementor/actions/user.php:150
+msgid "User To Edit"
+msgstr "Редактировать пользователя"
+
+#: includes/elementor/actions/post.php:23
+#: includes/elementor/actions/post.php:343
+#: includes/elementor/actions/post.php:354
+#: includes/elementor/widgets/acf-frontend-form.php:709
+#: includes/elementor/widgets/acf-fields.php:189
+#: includes/elementor/widgets/trash_button.php:148
+#: includes/elementor/widgets/trash_button.php:176
+#: includes/elementor/widgets/trash_button.php:186
+msgid "Post"
+msgstr "Запись"
+
+#: includes/elementor/actions/comment.php:88
+#: includes/elementor/actions/comment.php:98
+#: includes/elementor/actions/post.php:320
+#: includes/elementor/widgets/trash_button.php:158
+msgid "Select Post"
+msgstr "Выберите запись"
+
+#: includes/elementor/actions/comment.php:87
+#: includes/elementor/actions/post.php:318
+#: includes/elementor/widgets/trash_button.php:156
+msgid "Current Post"
+msgstr "Текущая запись"
+
+#: includes/elementor/actions/post.php:314
+msgid "Post To Edit"
+msgstr "Редактировать запись"
+
+#: includes/elementor/widgets/acf-frontend-form.php:821
+msgid "New Post"
+msgstr "Новая запись"
+
+#: includes/elementor/widgets/acf-frontend-form.php:822
+msgid "Edit User"
+msgstr "Редактировать пользователя"
+
+#: includes/elementor/widgets/acf-frontend-form.php:804
+msgid "Main Action"
+msgstr "Основное действие"
+
+#: includes/elementor/widgets/status_button.php:186
+#: includes/elementor/widgets/edit_button.php:378
+#: includes/elementor/widgets/trash_button.php:260
+msgid "Dynamic Selection"
+msgstr "Динамический выбор"
+
+#: includes/elementor/widgets/status_button.php:159
+#: includes/elementor/widgets/status_button.php:170
+#: includes/elementor/widgets/acf-frontend-form.php:426
+#: includes/elementor/widgets/acf-frontend-form.php:435
+#: includes/elementor/widgets/edit_button.php:343
+#: includes/elementor/widgets/edit_button.php:357
+#: includes/elementor/widgets/trash_button.php:233
+#: includes/elementor/widgets/trash_button.php:244
+msgid "Select By User"
+msgstr "Выбор по пользователю"
+
+#: includes/elementor/widgets/status_button.php:146
+#: includes/elementor/widgets/acf-frontend-form.php:415
+#: includes/elementor/widgets/edit_button.php:326
+#: includes/elementor/widgets/trash_button.php:220
+msgid "Select By Role"
+msgstr "Выбор по роли"
+
+#: includes/elementor/widgets/status_button.php:139
+#: includes/elementor/widgets/acf-frontend-form.php:406
+#: includes/elementor/widgets/edit_button.php:315
+#: includes/elementor/widgets/trash_button.php:213
+msgid "Who Can See This..."
+msgstr "Кто может это видеть..."
+
+#: includes/elementor/widgets/comments_list.php:267
+msgid "Display"
+msgstr "Отобразить"
+
+#: includes/elementor/widgets/acf-frontend-form.php:179
+msgid "Form Fields"
+msgstr "Поля формы"

@@ -1,0 +1,4 @@
+2021-08-01T14:56:07+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в E:\localserver\OpenServer\domains\WP\wp-includes\class-wp-image-editor-imagick.php на строке 113
+
+2021-08-01T14:56:15+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 20480 bytes) в E:\localserver\OpenServer\domains\WP\wp-includes\pomo\mo.php на строке 323
+

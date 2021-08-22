@@ -1,0 +1,77 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wsbw-sticker-options-wrap input.small-text{width: 95px;}
+#woo_stickers_data div.form-field{padding: 5px 20px 5px 162px;}
+#woo_stickers_data .nav-tab.nav-tab-active {
+    background-color: #fff;
+    color: #444;
+}
+.woo_stickers_tab a::before {content:"\f313" !important;}
+.custom_option, .wli_none { display: none; }
+.custom_option.wli_block { display: block; }
+.woo_opt label { padding-right: 10px; }
+.form-wrap .woo_opt label { display: inline-block; }
+table.wsbw_tab_content {width: 100%;}
+.wsbw_tab_content .form-field input[type=text] { width: auto; }
+.woocommerce_options_panel .form-field .woo_opt label.radio-label { width: auto; margin: 0; float: none; }
+.woocommerce_options_panel .form-field { padding: 5px 20px 5px 162px!important; }
+
+
+/* CTA section CSS Start */
+.wliplugin-cta-wrap {
+	padding: 10px 20px 25px 20px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.wliplugin-cta-wrap .head {
+    font-size: 20px;
+    font-weight: normal;
+}
+.wliplugin-cta-wrap .button {
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+.wliplugin-cta-upgrade {
+    position: relative;
+    margin: 0px 0 15px;
+    border-left-color: #f0b849 !important;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 1px 15px;
+}
+.wliplugin-cta-upgrade .note {
+	margin: 8px 0;
+	max-width: 75%;
+}
+.wliplugin-cta-upgrade .note::before {
+	content: url("../images/logo.png");
+	vertical-align: middle;
+	margin-right: 12px;
+}
+.wliplugin-cta-upgrade .button {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .wliplugin-cta-wrap .button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .wliplugin-cta-upgrade .note {
+        max-width: 100%;
+    }
+    .wliplugin-cta-upgrade .button {
+        position: static;
+    }
+    .wliplugin-cta-upgrade {
+        padding: 10px 15px;
+    }
+}

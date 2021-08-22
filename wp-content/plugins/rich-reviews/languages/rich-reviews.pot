@@ -1,0 +1,859 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Rich Reviews by Starfish\n"
+"POT-Creation-Date: 2019-10-29 18:41-0600\n"
+"PO-Revision-Date: 2019-10-29 18:41-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rich-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: lib/rich-reviews-admin-tables.php:28 lib/rich-reviews-admin-tables.php:70
+#: lib/rich-reviews-admin-tables.php:84
+msgid "Edit"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:29 lib/rich-reviews-admin-tables.php:106
+msgid "Delete"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:76
+msgid "Date"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:77
+msgid "Name"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:78
+msgid "Email"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:79 lib/rich-reviews-options.php:512
+#: lib/rich-reviews-options.php:596
+msgid "Title"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:80 lib/rich-reviews-options.php:548
+msgid "Rating"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:81
+msgid "Text"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:82
+msgid "Page ID"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:83
+msgid "Category"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:101
+msgid "Set to Pending"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:104
+msgid "Approve"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:118
+msgid "approved"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:121
+msgid "set to pending"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:124
+msgid "deleted"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:127
+msgid "false"
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:146
+msgid "review has been successfully "
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:148
+msgid " reviews have been successfully "
+msgstr ""
+
+#: lib/rich-reviews-admin-tables.php:151
+msgid "You must select an action."
+msgstr ""
+
+#: lib/rich-reviews-admin.php:31 lib/rich-reviews-admin.php:129
+msgid "Settings"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:41 lib/rich-reviews-admin.php:42
+#: lib/rich-reviews-options.php:310
+msgid "Instructions"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:49 lib/rich-reviews-admin.php:50
+msgid "Pending Reviews"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:58 lib/rich-reviews-admin.php:59
+msgid "Approved Reviews"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:66 lib/rich-reviews-admin.php:67
+msgid "Options"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:74
+msgid "Add/Edit"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:75
+msgid "Add New Review"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:202
+msgid "Rich Reviews Options"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:204
+msgid "Options required for the basic operation of Rich Reviews"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:208
+msgid "Admin"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:210 lib/rich-reviews-options.php:115
+msgid "Form"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:212
+msgid "Display"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:214
+msgid "User"
+msgstr ""
+
+#: lib/rich-reviews-admin.php:216
+msgid "Markup"
+msgstr ""
+
+#: lib/rich-reviews-options.php:107
+msgid "Approval Options"
+msgstr ""
+
+#: lib/rich-reviews-options.php:123
+msgid "Display "
+msgstr ""
+
+#: lib/rich-reviews-options.php:131
+msgid "User "
+msgstr ""
+
+#: lib/rich-reviews-options.php:139
+msgid "Markup "
+msgstr ""
+
+#: lib/rich-reviews-options.php:278 lib/rich-reviews-options.php:286
+#: lib/rich-reviews-options.php:294 lib/rich-reviews-options.php:302
+#, php-format
+msgid "Specify %1$s settings below"
+msgstr ""
+
+#: lib/rich-reviews-options.php:311
+msgid "Review"
+msgstr ""
+
+#: lib/rich-reviews-options.php:312
+msgid ""
+"In order to output complete markup for for recognizable \"Review\" rich "
+"schema, there must be a value set for the item reviewed itemprop. Rich "
+"Reviews does this by using the category for which reviews are set. If this "
+"is not set, Rich Reviews will use the Page Title of the page from which the "
+"review was submited. However, if neither of these items are set, there needs "
+"to be a fallback set. You can do this, and adjust it's use case below. "
+"(category=\"page\" or category=\"post\" is considered a category being set, "
+"and will use the page title if available, or the fallback if not)"
+msgstr ""
+
+#: lib/rich-reviews-options.php:313
+msgid "Author"
+msgstr ""
+
+#: lib/rich-reviews-options.php:314
+msgid ""
+"The Author field is an optional data value in rich formatting for a \"Review"
+"\", however the more information provided, the better one's reviews will "
+"appear. For this reason Rich Reviews has an Author fallback as well for the "
+"case that the \"Name\" field is either not used or not required. You can set "
+"that below."
+msgstr ""
+
+#: lib/rich-reviews-options.php:392
+msgid "Require Approval"
+msgstr ""
+
+#: lib/rich-reviews-options.php:394
+msgid ""
+"Require Approval - this sends all new reviews to the pending review page. "
+"Unchecking this will automatically publish all reviews as they are submitted."
+msgstr ""
+
+#: lib/rich-reviews-options.php:402
+msgid "Approve Authority"
+msgstr ""
+
+#: lib/rich-reviews-options.php:404
+msgid "Authority level required to Approve Pending Posts"
+msgstr ""
+
+#: lib/rich-reviews-options.php:418
+msgid "Send Email Notifications"
+msgstr ""
+
+#: lib/rich-reviews-options.php:420
+msgid ""
+"Send Notification Emails - This will send an automatic email to the admin "
+"every time a new pending review is submitted."
+msgstr ""
+
+#: lib/rich-reviews-options.php:428
+msgid "Admin Email"
+msgstr ""
+
+#: lib/rich-reviews-options.php:430
+msgid "Admin Email - The email to which notifications are sent."
+msgstr ""
+
+#: lib/rich-reviews-options.php:452
+msgid "Name Label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:454
+msgid "The Name field label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:458
+msgctxt "The Name field label"
+msgid "Name"
+msgstr ""
+
+#: lib/rich-reviews-options.php:462
+msgid "Display Name"
+msgstr ""
+
+#: lib/rich-reviews-options.php:464
+msgid "Display the Name field?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:472
+msgid "Name Required"
+msgstr ""
+
+#: lib/rich-reviews-options.php:474
+msgid "Make the Name field required?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:482
+msgid "Email Label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:484
+msgid "The Email field label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:488
+msgctxt "The Email field label"
+msgid "Email"
+msgstr ""
+
+#: lib/rich-reviews-options.php:492
+msgid "Display Email"
+msgstr ""
+
+#: lib/rich-reviews-options.php:494
+msgid "Display the Email field?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:502
+msgid "Email Required"
+msgstr ""
+
+#: lib/rich-reviews-options.php:504
+msgid "Make the Email field required?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:514
+msgid "The title of the Review form"
+msgstr ""
+
+#: lib/rich-reviews-options.php:518
+msgid "Review Title"
+msgstr ""
+
+#: lib/rich-reviews-options.php:522
+msgid "Display Title"
+msgstr ""
+
+#: lib/rich-reviews-options.php:524
+msgid "Display the Review form title?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:532
+msgid "Title Required"
+msgstr ""
+
+#: lib/rich-reviews-options.php:534
+msgid "Make the Review form title required?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:542
+msgid "Rating Label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:544
+msgid "Form Rating Label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:552
+msgid "Content Label"
+msgstr ""
+
+#: lib/rich-reviews-options.php:554
+msgid "Content field label\" Link"
+msgstr ""
+
+#: lib/rich-reviews-options.php:558
+msgid "Review Content"
+msgstr ""
+
+#: lib/rich-reviews-options.php:562
+msgid "Content Required"
+msgstr ""
+
+#: lib/rich-reviews-options.php:564
+msgid "Make the Content field required?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:572
+msgid "Display Content"
+msgstr ""
+
+#: lib/rich-reviews-options.php:574
+msgid "Display the content field?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:582
+msgid "Submit Button Text"
+msgstr ""
+
+#: lib/rich-reviews-options.php:584
+msgid "The button text to submit the form"
+msgstr ""
+
+#: lib/rich-reviews-options.php:588
+msgid "Submit"
+msgstr ""
+
+#: lib/rich-reviews-options.php:598
+msgid ""
+"Include Post Titles - this will include the title and a link to the form "
+"page for every review."
+msgstr ""
+
+#: lib/rich-reviews-options.php:606
+msgid "Rating Stars"
+msgstr ""
+
+#: lib/rich-reviews-options.php:608
+msgid ""
+"Star Snippets - this will change the averge rating displayed in the snippet "
+"shortcode to be stars instead of numerical values."
+msgstr ""
+
+#: lib/rich-reviews-options.php:616
+msgid "Star Color"
+msgstr ""
+
+#: lib/rich-reviews-options.php:618
+msgid "Star Color - the color of the stars on reviews"
+msgstr ""
+
+#: lib/rich-reviews-options.php:622
+msgid "#ffaf00"
+msgstr ""
+
+#: lib/rich-reviews-options.php:626
+msgid "Full Width"
+msgstr ""
+
+#: lib/rich-reviews-options.php:628
+msgid ""
+"Display Full width - This option will display the reviews in full width "
+"block format. Default will display the reviews in blocks of three."
+msgstr ""
+
+#: lib/rich-reviews-options.php:636
+msgid "Show Date"
+msgstr ""
+
+#: lib/rich-reviews-options.php:638
+msgid "Display the date that the review was submitted inside the review."
+msgstr ""
+
+#: lib/rich-reviews-options.php:646
+msgid "Except Length"
+msgstr ""
+
+#: lib/rich-reviews-options.php:648
+msgid "Character Length for Excerpt"
+msgstr ""
+
+#: lib/rich-reviews-options.php:656
+msgid "Credit Permission"
+msgstr ""
+
+#: lib/rich-reviews-options.php:658
+msgid ""
+"Give Credit to Starfish - this option will add a small credit line and a "
+"link to Starfish's website to the bottom of your reviews page"
+msgstr ""
+
+#: lib/rich-reviews-options.php:666
+msgid "Return to Form"
+msgstr ""
+
+#: lib/rich-reviews-options.php:668
+msgid ""
+"Upon submission of the review form, the page will automatically scroll back "
+"to the location of the form."
+msgstr ""
+
+#: lib/rich-reviews-options.php:676
+msgid "Review Order"
+msgstr ""
+
+#: lib/rich-reviews-options.php:678
+msgid "Review Display Order"
+msgstr ""
+
+#: lib/rich-reviews-options.php:682
+msgid "asc"
+msgstr ""
+
+#: lib/rich-reviews-options.php:694
+msgid "Integrate User Accounts"
+msgstr ""
+
+#: lib/rich-reviews-options.php:696
+msgid "checking this will enable the remaining options"
+msgstr ""
+
+#: lib/rich-reviews-options.php:704
+msgid "Autofill Name"
+msgstr ""
+
+#: lib/rich-reviews-options.php:706
+msgid "Autofill Name from User Accounts?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:714
+msgid "User Avatars"
+msgstr ""
+
+#: lib/rich-reviews-options.php:716
+msgid "Use user avatars?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:724
+msgid "Require Login"
+msgstr ""
+
+#: lib/rich-reviews-options.php:726
+msgid "Require Users to be logged in to submit reviews?"
+msgstr ""
+
+#: lib/rich-reviews-options.php:738
+msgid "Review Fallback"
+msgstr ""
+
+#: lib/rich-reviews-options.php:740
+msgid "The fallback value for Review rich schema."
+msgstr ""
+
+#: lib/rich-reviews-options.php:748
+msgid "Fallback Use-case"
+msgstr ""
+
+#: lib/rich-reviews-options.php:750
+msgid "When to use the Fallback value."
+msgstr ""
+
+#: lib/rich-reviews-options.php:762
+msgid "Author Fallback"
+msgstr ""
+
+#: lib/rich-reviews-options.php:764
+msgid "The fallback value for Author rich schema"
+msgstr ""
+
+#: lib/rich-reviews-options.php:772
+msgid "Include URL"
+msgstr ""
+
+#: lib/rich-reviews-options.php:774
+msgid ""
+"Include URL rich data - This will add a block of markup to the reviews "
+"output to communicate a URL value for rich schema"
+msgstr ""
+
+#: lib/rich-reviews-options.php:782
+msgid "URL"
+msgstr ""
+
+#: lib/rich-reviews-options.php:784
+msgid "The URL to use in your Rich Markup (without the \"http://\")"
+msgstr ""
+
+#: lib/rich-reviews-widget.php:20
+msgid "At least one of the four widget variables was not set."
+msgstr ""
+
+#: lib/rich-reviews-widget.php:66
+msgid "Title:"
+msgstr ""
+
+#: rich-reviews.php:329
+msgid "Something went wrong! Please report this error."
+msgstr ""
+
+#: rich-reviews.php:484 shortcodes/rr-show.php:265
+msgid "Supported By: "
+msgstr ""
+
+#: shortcodes/rr-form.php:304
+msgid ""
+"You have received a new review which is now pending your approval. The "
+"information from the review is listed below."
+msgstr ""
+
+#: shortcodes/rr-form.php:306
+msgid "Review Date: "
+msgstr ""
+
+#: shortcodes/rr-form.php:316
+msgid "Review Rating: "
+msgstr ""
+
+#: shortcodes/rr-form.php:320
+msgid "Review Category: "
+msgstr ""
+
+#: shortcodes/rr-form.php:322
+msgid "Click the link below to review and approve your new review."
+msgstr ""
+
+#: shortcodes/rr-form.php:324
+msgid "Thanks for choosing Rich Reviews,"
+msgstr ""
+
+#: shortcodes/rr-form.php:325
+msgid "The Starfish Team"
+msgstr ""
+
+#: shortcodes/rr-form.php:327
+msgid "New Pending Review"
+msgstr ""
+
+#: shortcodes/rr-show.php:199
+msgid "Date improperly formatted, correct in "
+msgstr ""
+
+#: shortcodes/rr-show.php:201
+msgid "Dashboard"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:8
+msgid "Shortcode Cheat Sheet"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:11
+msgid ""
+"Make sure you read the detailed descriptions of how these work below, in "
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:11
+msgid "Shortcode Usage"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:50
+msgid "Thank you for using Rich Reviews by"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:52
+msgid ""
+"This plugin is based around shortcodes. We think that this is the best way "
+"to go, as then YOU control where reviews, forms, and snippets are shown - "
+"pages, posts, widgets... wherever!"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:56
+msgid ""
+"Please take a moment to <a href=\"http://wordpress.org/extend/plugins/rich-"
+"reviews/\">rate and/or review</a> this plugin, and tell people about it - we "
+"love hearing feedback, and depend on you to spread the word!"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:60
+msgid "Some terminology so that we are all on the same page:"
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:63
+msgid ""
+"A <b>global review</b> is a review which applies or belongs to the entire "
+"Wordpress site, regardless of the current page or post. You might use global "
+"reviews if your users are submitting reviews for a business or entire "
+"website."
+msgstr ""
+
+#: views/admin/dashboard/instructions.php:66
+msgid ""
+"A <b>per-page review</b> is a review which applies to some specific page or "
+"post. You might use per-page reviews if, for example, your Wordpress site "
+"has various products with a dedicated page or post for each one. Note that "
+"reviews users submit will <i>always</i> record the post from which they were "
+"submitted, even if you will end up using global reviews! This is to simplify "
+"things, so that we don't have a bunch of different, confusing shortcodes."
+msgstr ""
+
+#: views/admin/dashboard/rr_form.php:7
+msgid ""
+"This shortcode will insert the form which your users fill out to submit "
+"their reviews to you. Note that javascript must be enabled (on both your "
+"site and on the user's computer) in order for this to work. There is one "
+"option, shown here with its default: [RICH_REVIEWS_FORM category=\"none\"]. "
+"You do NOT need to specify a category of \"page\" if you want to use per-"
+"page reviews. By default, ALL reviews that users submit will record the page "
+"or post from which they were submitted."
+msgstr ""
+
+#: views/admin/dashboard/rr_form.php:12
+msgid ""
+"This will create a form for users to submit reviews under the category of "
+"\"foo\". Users will not notice a difference, and the form itself does not "
+"change based on the category. Again note that if you wish to have per-page "
+"reviews, you do NOT need to specify a category of \"page\" as you do with "
+"the review showing shortcode."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:8
+msgid ""
+"This is the main shortcode for this plugin. By default (if no options are "
+"given), it will show the first three global reviews which have been "
+"approved. Note that this shortcode on its own will NOT display an average/"
+"overall score nor any rich snippet markup. See the \"snippet\" shortcode for "
+"that. Here is the shortcode with all possible options, along with their "
+"defaults: "
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:8
+msgid " We will now show some examples of using these options."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:13
+msgid ""
+"This will show the first eight approved global reviews. Any integer greater "
+"than or equal to one may be used, and note that (given enough room) reviews "
+"are displayed in blocks of three."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:19
+msgid ""
+"This will show EVERY approved global review which has been posted to your "
+"site. This is the only non-integer value which works as the value for the "
+"\"num\" option."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:25
+msgid ""
+"This will show the first three approved reviews for the page or post on "
+"which this shortcode appears. You can also use category=\"post\" and achieve "
+"the same results (because sometimes you just can't remember if you're "
+"supposed to say post or page! :-) )"
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:31
+msgid ""
+"This will show the first three approved reviews which have the category \"foo"
+"\" (you might also use categories of \"games\" or \"iPhone\" or \"bears"
+"\" (although everyone knows that the best kind of bear is grizzly) ). The "
+"categories here are determined by the categories you specify when presenting "
+"the review form to your users."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:37
+msgid ""
+"This will show the first three approved reviews regardless of category. The "
+"\"all\" value submitted for the category parameter will remove the category "
+"filter from the reviews query returning reviews of all categories. Values "
+"passed to the \"num\" parameter ill obviously still have it's standard "
+"effect modifiying the quantity of reviews displayed."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:43
+msgid ""
+"This will show the first six approved reviews which have the category \"bar"
+"\". Again, you may use any category, and if you specify that category=\"page"
+"\" then the first six approved reviews for that particular page/post will be "
+"displayed."
+msgstr ""
+
+#: views/admin/dashboard/rr_show.php:49
+msgid ""
+"This will show all of the approved reviews from your website regardless of "
+"category. Any review that is approved will be retured by this shortcode."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:7
+msgid ""
+"This shortcode will insert an aggregate (average) score based on all "
+"approved reviews. By default, this aggregate score is based on the global "
+"reviews (as you might guess, the shortcode with its one option and "
+"corresponding default is [RICH_REVIEWS_SNIPPET category=\"none\"]). More "
+"importantly for webmasters and those concerned with SEO is that this "
+"shortcode tags the aggregate score with Rich Snippet markup so that Google "
+"(and other search engines) will see the average score on that page, and "
+"display stars next to that page when it shows up in search results."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:8
+msgid ""
+"This is given as a seperate shortcode, rather than integrated into the \"show"
+"\" shortcode, so that you may place this in, say, your footer and be able to "
+"have Rich Snippets on every page and post, without also having reviews "
+"taking up space."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:9
+msgid ""
+"You can test your page <a href=\"http://www.google.com/webmasters/tools/"
+"richsnippets\">here</a>. Note that Google is vague with exactly how exactly "
+"they give search results. It might take some time for the stars to show up "
+"next to your page, and it might only show up with specific search terms. The "
+"best thing you can do is make sure that the Rich Snippets tool, above, "
+"recognizes the star rating on your page, and be patient. We are constantly "
+"working to make sure we keep up with Google to ensure these ratings are "
+"displayed."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:14
+msgid ""
+"This will display the aggregate (average) score, along with the Rich Snippet "
+"markup, for all approved reviews with the category \"foo\"."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:20
+msgid ""
+"This will display the aggregate (average) score, along with the Rich Snippet "
+"markup, for all approved reviews for the current page/post (again, you may "
+"equivalently use category=\"post\")."
+msgstr ""
+
+#: views/admin/dashboard/rr_snippet.php:26
+msgid ""
+"This will display the aggregate (average) score, along with the Rich Snippet "
+"markup, for all approved reviews regardless of category. All categorized and "
+"uncategorized reviews will be factored into this aggregate rating."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Rich Reviews by Starfish"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid ""
+"https://starfish.reviews/?"
+"utm_source=rich_reviews_plugin&utm_medium=wordpress_org&utm_campaign=plugin_author_uri"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Rich Reviews empowers you to easily capture user reviews and display them on "
+"your wordpress page or post and in Google Search Results as a Google Rich "
+"Snippet."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Starfish Reviews"
+msgstr ""
+
+#. rich-reviews.php:254
+msgid "Read More"
+msgstr ""
+
+#. rich-reviews.php:255
+msgid "Less"
+msgstr ""
+
+#. shortcodes\rr-form.php:252
+msgid "your review has been recorded"
+msgstr ""
+
+#. shortcodes\rr-form.php:259
+msgid " and submitted for approval"
+msgstr ""
+
+#. shortcodes\rr-form.php:261
+msgid ". Thanks!"
+msgstr ""
+
+#. views/frontend/form/rr-text-input.php:9
+msgid "The Name field is required."
+msgstr ""
+
+#. views/frontend/form/rr-text-input.php:9
+msgid "The Email field is required."
+msgstr ""
+
+#. views/frontend/form/rr-text-input.php:9
+msgid "The Review Title field is required."
+msgstr ""
+
+#. views/frontend/form/rr-textarea-input.php:9
+msgid "The Review Content field is required."
+msgstr ""
+
+#. views/frontend/snippets.php:28:65:124:154:182:214
+msgid "Overall rating:"
+msgstr ""
+
+#. views/frontend/snippets.php:35:70:131:159:189:219
+msgid "based on"
+msgstr ""
+
+#. views/frontend/snippets.php:69:158:218
+msgid "out of"
+msgstr ""
+
+#. views/frontend/snippets.php:38:73:134:162:192:222
+msgid "reviews."
+msgstr ""
